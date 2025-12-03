@@ -9,21 +9,25 @@ document.addEventListener("DOMContentLoaded", cargarTemplate);
 
 // HTML del header
 const headerHTML = `
-
     <div class="promo-banner">
         <div class="promo-track">
-            <div class="promo-content">
-                <p>La tienda aún no se encuentra operando </p> | 
-                <p>PROXIMAMENTE ANUNCIO DE LANZAMIENTO </p> | 
-                <p>La tienda aún no se encuentra operando </p> | 
-                <p>PROXIMAMENTE ANUNCIO DE LANZAMIENTO </p> | 
-                <p>La tienda aún no se encuentra operando </p> | 
-                <p>PROXIMAMENTE ANUNCIO DE LANZAMIENTO </p> | 
-                <p>La tienda aún no se encuentra operando </p> | 
-                <p>PROXIMAMENTE ANUNCIO DE LANZAMIENTO </p> | 
-            </div>
+          <div class="promo-content">
+            <span>La tienda aún no se encuentra operando</span>
+            <span class="separator">|</span>
+            <span>PROXIMAMENTE ANUNCIO DE LANZAMIENTO</span>
+            <span class="separator">|</span>
+            <span>La tienda aún no se encuentra operando</span>
+            <span class="separator">|</span>
+            <span>PROXIMAMENTE ANUNCIO DE LANZAMIENTO</span>
+            <span class="separator">|</span>
+            <span>La tienda aún no se encuentra operando</span>
+            <span class="separator">|</span>
+            <span>PROXIMAMENTE ANUNCIO DE LANZAMIENTO</span>
+            <span class="separator">|</span>
+          </div>
         </div>
-    </div>  
+      </div>
+   
     <header class="header">
         <div class="contenedor contenido__header">
             <a href="/index.html">
@@ -218,4 +222,3 @@ function cargarTemplate() {
     document.querySelector("footer").innerHTML = footerHTML;
     document.querySelector("#remeras-sidebar").innerHTML = remerasSidebarHTML;
 }
-

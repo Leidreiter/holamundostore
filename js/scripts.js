@@ -2,13 +2,13 @@
 document.addEventListener('DOMContentLoaded', actualizarPrecios);
 
 const preciosProductos = {
-    cuadros: 0,
-    cuadrosCustom: 0,
-    deskpads: 0,
-    deskpadsCustom: 0,
-    remeras: 0,
-    stickers: 0, 
-    stickersPromo: 0, 
+    cuadros: 55,
+    cuadrosCustom: 65,
+    deskpads: 50,
+    deskpadsCustom: 60,
+    remeras: 40,
+    stickers: 15, 
+    stickersPromo: 10, 
     carteles: 0
 };
 

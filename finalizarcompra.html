@@ -4,18 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Hola Mundo Store, el paraíso del merchandising para programadores: cuadros, stickers, mousepads y remeras que expresan tu pasión por el código.">
+    <meta name="description"
+        content="Hola Mundo Store, el paraíso del merchandising para programadores: cuadros, stickers, mousepads y remeras que expresan tu pasión por el código.">
     <title>Hola Mundo Store - Todo para developers</title>
     <link rel="icon" href="/img/favicon.svg" type="image/svg+xml"> <!-- Formato SVG -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=New+Amsterdam&display=swap" as="font" crossorigin="crossorigin">
+    <link rel="preload"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=New+Amsterdam&display=swap"
+        as="font" crossorigin="crossorigin">
     <link rel="preload" href="/css/normalize.css" as="style">
     <link rel="preload" href="/css/styles.css" as="style">
-    
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=New+Amsterdam&display=swap" rel="stylesheet">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=New+Amsterdam&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="/css/styles.css">
 
@@ -33,14 +38,15 @@
         <p class="datos_fc">Hola, te enviaré por WhatsApp mis datos para realizar el
             pago (titular de la cuenta y alias), completa el formulario a continuación para realizar tu pedido. ¿No
             tienes WhatsApp? No hay problema,
-            escribeme por Instagram <a href="https://www.instagram.com/holamundotech/" target="_blank"
-                class="link">Click Aquí</a></p>
+            escribeme por Instagram <a href="https://www.instagram.com/soymarcusdev/" target="_blank" class="link">Click
+                Aquí</a></p>
     </main>
 
     <!--Banner friends-->
     <div class="contenedor banner contenido-banner" id="carteles">
         <div class="banner__imagen">
-            <img loading="lazy" src="/img/banner-friends.png" alt="banner cuadro personalizado" class="banner__imagen-border block">
+            <img loading="lazy" src="/img/banner-friends.png" alt="banner cuadro personalizado"
+                class="banner__imagen-border block">
         </div>
         <div class="banner__info">
             <div class="banner__info__icono">
@@ -66,16 +72,16 @@
 
                         <select id="product" name="product" required class="selector">
                             <option value="" disabled selected>Selecciona un producto</option>
-                            <option value="" disabled>// cuadros //</option>
+                            <option value="" disabled>// Cuadros //</option>
                             <option value="Cuadro Hello World - Drácula theme">Cuadro Hello World - Drácula theme
                             </option>
                             <option value="Cuadro Hello World - Gruvbox theme">Cuadro Hello World - Gruvbox theme
                             </option>
                             <option value="Cuadro Hello World - Monokai Pro theme">Cuadro Hello World - Monokai Pro
                                 theme</option>
-                            <option value="Cuadro Hello World - edición especial theme">cuadro Hello World - Edición
+                            <option value="Cuadro Hello World - edición especial theme">Cuadro Hello World - Edición
                                 especial theme</option>
-                            <option value="cuadro Hello World - Personalizado">cuadro Hello World - Personalizado
+                            <option value="cuadro Hello World - Personalizado">Cuadro Hello World - Personalizado
                             </option>
                             <option value="" disabled>// Desk Pads //</option>
                             <option value="Desk pad Hello World - Drácula theme">Desk pad Hello World - Drácula theme
@@ -90,16 +96,8 @@
                             <option value="Remera This is fine!">Remera This is fine!</option>
                             <option value="Remera Anti Coding Coding Club">Remera Anti Coding Coding Club</option>
                             <option value="Remera Baby dont hurt me">Remera Baby dont hurt me</option>
-                            <option value="Remera Sabes de código bro?">Remera Sabes de código bro?</option>
-                            <option value="Remera Cazador de bugs">Remera Cazador de bugs</option>
-                            <option value="Remera Todo bajo control">Remera Todo bajo control</option>
-                            <option value="Remera CSS es increíble">Remera CSS es increíble</option>
-                            <option value="Remera !false">Remera false</option>
-                            <option value="Remera Funcionaba en mi máquina">Remera Funcionaba en mi máquina</option>
                             <option value="Remera Github (mona - the octocat)">Remera Github (mona - the octocat)
                             </option>
-                            <option value="Remera Lo hago en producción">Remera Lo hago en producción</option>
-                            <option value="Remera El código nunca miente">Remera El código nunca miente</option>
                             <option value="" disabled>// Otros //</option>
                             <option value="Stickers de programación">Stickers de programación</option>
                             <option value="Cartel neon RGB Github" disabled>Cartel neon RGB Github</option>
@@ -112,6 +110,8 @@
                             placeholder="Cantidad">
                     </div>
                 </div>
+                <!-- después de: <input type="number" id="amount" ...> -->
+                <div id="unitsContainer" class="units-container"></div>
 
                 <div class="form-grid">
 
@@ -139,19 +139,18 @@
                 </div>
 
 
-                <div class="campo_stickers">
-                    <p>¿Te gustaría agregar un pack de stickers de programación por <span class="precio"
-                            data-producto="stickersPromo">$0</span> en promoción con ésta
+                <div class="campo_stickers" id="campoStickers">
+                    <p>¿Te gustaría agregar un pack de stickers de programación por <span class="precio precioStickers"
+                            data-producto="stickersPromo">$0</span> EN PROMOCIÓN con ésta
                         compra?"
                         <a href="/tienda/otros/stickers.html" target="_blank">Miralos aquí</a>
                     </p>
                 </div>
-                <!--
-                <input type="checkbox" id="stickers" name="stickers">
-                <label for="checkbox">Sí, agregarlos a mi pedido</label>
-            -->
-                <input type="checkbox" id="stickers" name="stickers">
-                <label for="stickers">Sí, incluir stickers en la compra</label>
+
+                <div class="campo_checkbox_stickers" id="checkboxStickers">
+                    <input type="checkbox" id="stickers" name="stickers">
+                    <label for="stickers">Sí, incluir stickers en la compra</label>
+                </div>
 
 
             </section>
@@ -241,88 +240,280 @@
     </div>
 
     <script>
+        /* ---------- Configuración y agrupado de productos ---------- */
+        const productSelect = document.getElementById('product');
+        const amountInput = document.getElementById('amount');
+        const unitsContainer = document.getElementById('unitsContainer');
 
+        const optionGroups = {
+            cuadro: [],
+            deskpad: [],
+            remera: [],
+            otros: []
+        };
+
+        function buildOptionGroups() {
+            optionGroups.cuadro = [];
+            optionGroups.deskpad = [];
+            optionGroups.remera = [];
+            optionGroups.otros = [];
+
+            Array.from(productSelect.options).forEach(opt => {
+                if (!opt.value || opt.disabled) return; // saltar separadores y opciones deshabilitadas
+                const text = opt.text.trim();
+                const val = opt.value;
+                const lower = text.toLowerCase();
+
+                if (lower.includes('cuadro')) {
+                    optionGroups.cuadro.push({ text, val });
+                } else if (lower.includes('desk pad') || lower.includes('deskpad') || lower.includes('desk ')) {
+                    optionGroups.deskpad.push({ text, val });
+                } else if (lower.includes('remera')) {
+                    optionGroups.remera.push({ text, val });
+                } else {
+                    optionGroups.otros.push({ text, val });
+                }
+            });
+        }
+
+        /* ---------- Render dinámico de selects por unidad ---------- */
+        function renderUnitSelectors() {
+            unitsContainer.innerHTML = '';
+            const amount = Math.max(1, parseInt(amountInput.value || 1, 10));
+            const selectedIndex = productSelect.selectedIndex;
+            const selectedText = selectedIndex >= 0 ? productSelect.options[selectedIndex].text.toLowerCase() : '';
+            let group = 'otros';
+            if (selectedText.includes('remera')) group = 'remera';
+            else if (selectedText.includes('cuadro')) group = 'cuadro';
+            else if (selectedText.includes('desk pad') || selectedText.includes('deskpad') || selectedText.includes('desk ')) group = 'deskpad';
+            else group = 'otros';
+
+            // Si es categoría "otros" (producto único), no generamos selects por unidad
+            if (group === 'otros') return;
+
+            const designs = optionGroups[group];
+
+            for (let i = 1; i <= amount; i++) {
+                const unitDiv = document.createElement('div');
+                unitDiv.className = 'unit-block';
+
+                const title = document.createElement('h4');
+                title.className = 'unit-title';
+                title.textContent = `Unidad ${i}`;
+                unitDiv.appendChild(title);
+
+                // Select de diseño
+                const selectDesign = document.createElement('select');
+                selectDesign.name = `unit_design_${i}`;
+                selectDesign.id = `unit_design_${i}`;
+                selectDesign.className = 'selector unit-design';
+                selectDesign.required = true;
+
+                const placeholder = document.createElement('option');
+                placeholder.value = '';
+                placeholder.disabled = true;
+                placeholder.selected = true;
+                placeholder.textContent = 'Selecciona diseño';
+                selectDesign.appendChild(placeholder);
+
+                designs.forEach(d => {
+                    const o = document.createElement('option');
+                    o.value = d.val;
+                    o.textContent = d.text;
+                    selectDesign.appendChild(o);
+                });
+
+                unitDiv.appendChild(selectDesign);
+
+                // Si es remera, agrega talle y corte por unidad
+                if (group === 'remera') {
+                    const selectSize = document.createElement('select');
+                    selectSize.name = `unit_size_${i}`;
+                    selectSize.id = `unit_size_${i}`;
+                    selectSize.className = 'selector unit-size';
+                    selectSize.required = true;
+                    selectSize.innerHTML = `
+        <option value="" disabled selected>Talle</option>
+        <option value="S">S</option>
+        <option value="M">M</option>
+        <option value="L">L</option>
+        <option value="XL">XL</option>
+        <option value="XXL">XXL</option>
+      `;
+                    unitDiv.appendChild(selectSize);
+
+                    const selectCut = document.createElement('select');
+                    selectCut.name = `unit_cut_${i}`;
+                    selectCut.id = `unit_cut_${i}`;
+                    selectCut.className = 'selector unit-cut';
+                    selectCut.required = true;
+                    selectCut.innerHTML = `
+        <option value="" disabled selected>Corte</option>
+        <option value="Corte femenino">Corte femenino</option>
+        <option value="Corte masculino">Corte masculino</option>
+      `;
+                    unitDiv.appendChild(selectCut);
+                }
+
+                unitsContainer.appendChild(unitDiv);
+            }
+        }
+
+        /* ---------- Función de envío corregida (incluye diseños por unidad) ---------- */
         function sendMessage() {
-            // Obtén los valores de los campos del formulario
-            var product = encodeURIComponent(document.getElementById('product').value);
-            var amount = encodeURIComponent(document.getElementById('amount').value);
-            var type = encodeURIComponent(document.getElementById('type').value);
-            var size = encodeURIComponent(document.getElementById('size').value);
-            var fullName = encodeURIComponent(document.getElementById('fullName').value);
-            var email = encodeURIComponent(document.getElementById('email').value);
-            var stickersChecked = document.getElementById('stickers').checked; // Verifica si el checkbox está marcado
-            var sucursalChecked = document.getElementById('sucursal').checked; // Verifica si el checkbox de sucursal está marcado
-            var address = encodeURIComponent(document.getElementById('address').value);
-            var city = encodeURIComponent(document.getElementById('city').value);
-            var province = encodeURIComponent(document.getElementById('province').value);
-            var postalCode = encodeURIComponent(document.getElementById('postalCode').value);
-            var detalles = encodeURIComponent(document.getElementById('detalles').value);
+            // Datos básicos
+            const productIndex = productSelect.selectedIndex;
+            const productText = productIndex >= 0 ? productSelect.options[productIndex].text : '';
+            const amount = Math.max(1, parseInt(amountInput.value || 1, 10));
 
-            // Número de teléfono fijo
-            var whatsappNumber = '5493515957014';
+            const fullName = document.getElementById('fullName').value || '';
+            const email = document.getElementById('email').value || '';
+            const stickersChecked = document.getElementById('stickers').checked;
+            const sucursalChecked = document.getElementById('sucursal').checked;
+            const address = document.getElementById('address').value || '';
+            const city = document.getElementById('city').value || '';
+            const province = document.getElementById('province').value || '';
+            const postalCode = document.getElementById('postalCode').value || '';
+            const detalles = document.getElementById('detalles').value || '';
 
-            // Variable para el mensaje de stickers
-            var stickersMessage = stickersChecked ? "Y sí, me gustaría incluir un pack de stickers." : ""; // Solo se incluye si está marcado
+            // Construir resumen por unidad: preferimos el texto visible del option seleccionado en cada unit select
+            const unitLines = [];
+            for (let i = 1; i <= amount; i++) {
+                const designEl = document.getElementById(`unit_design_${i}`);
+                if (designEl) {
+                    // Tomar el texto mostrado de la opción seleccionada (no solo value)
+                    const selIdx = designEl.selectedIndex;
+                    const designText = selIdx >= 0 ? designEl.options[selIdx].text : designEl.value || '';
+                    let line = `Unidad ${i}: ${designText}`;
 
-            // Mensajes diferentes para cada caso
-            var message = "";
+                    const sizeEl = document.getElementById(`unit_size_${i}`);
+                    const cutEl = document.getElementById(`unit_cut_${i}`);
+                    if (sizeEl && sizeEl.value) line += ` - Talle: ${sizeEl.value}`;
+                    if (cutEl && cutEl.value) line += ` - Corte: ${cutEl.value}`;
 
-            if (sucursalChecked) {
-                // Mensaje si el checkbox de sucursal está marcado (envío a sucursal)
-                message = `Hola, quisiera comprar ${amount} ${product} ${type} ${size}%0AMis datos son:%0A${fullName}%0A${email}%0AQuiero que lo envíen a una sucursal de Correo Argentino más cercana.%0A${stickersMessage}`;
-            } else {
-                // Mensaje si el checkbox de sucursal NO está marcado (envío a domicilio)
-                message = `Hola, quisiera comprar ${amount} ${product} ${type} ${size}%0AMis datos son:%0A${fullName}%0A${email}%0A${address}%0A${city}%0A${province}%0A${postalCode}%0A${detalles}%0A${stickersMessage}`;
+                    unitLines.push(line);
+                } else {
+                    // Si no existe selector por unidad (ej. categoria 'otros'), usamos el texto del product principal
+                    unitLines.push(`Unidad ${i}: ${productText}`);
+                }
             }
 
-            // Construye la URL de WhatsApp
-            var whatsappURL = `https://api.whatsapp.com/send?phone=${whatsappNumber}&text=${message}`;
+            const selectedProduct = document.getElementById("product").value;
+            let stickersMessage = "";
+
+            // Si el usuario compró stickers, NO se envía ningún mensaje de stickers
+            if (selectedProduct !== "Stickers de programación") {
+                const stickersChecked = document.getElementById("stickers").checked;
+                stickersMessage = stickersChecked
+                    ? "Sí, incluir pack de stickers."
+                    : "No incluir stickers.";
+            }
+
+            // Armar mensaje completo (antes de encodear)
+            let message = `Hola, quisiera comprar ${amount} unidad(es).%0A`; // usamos %0A únicamente para claridad aquí, pero lo mejor es usar \n y luego encodeURIComponent
+            // Mejor arma con saltos reales y luego encodeURIComponent al final:
+            message = `Hola, quisiera comprar ${amount} unidad(es)\n\n`;
+            message += unitLines.join('\n') + '\n\n';
+            message += `Mis datos:\n${fullName}\n${email}\n`;
+
+            if (sucursalChecked) {
+                message += `Enviar a sucursal de Correo Argentino.\n`;
+            } else {
+                message += `${address}\n${city}\n${province}\n${postalCode}\n${detalles}\n`;
+            }
+
+            message += `${stickersMessage}`;
+
+            // Codificar el mensaje completo UNA VEZ y abrir WhatsApp
+            const whatsappNumber = '5493515957014';
+            const whatsappURL = `https://api.whatsapp.com/send?phone=${whatsappNumber}&text=${encodeURIComponent(message)}`;
             window.open(whatsappURL, '_blank');
 
-            // Redirige a la página de agradecimiento después de 1.5 segundos
-            setTimeout(function () {
+            // Redirigir a gracias
+            setTimeout(() => {
                 window.location.href = 'gracias.html';
             }, 1500);
 
-            // Previene el envío del formulario
             return false;
         }
 
-        // Script para mostrar u ocultar los campos de envío
+        /* ---------- Inicialización y listeners ---------- */
+        document.addEventListener('DOMContentLoaded', () => {
+            buildOptionGroups();
+            renderUnitSelectors();
 
-        const checkbox = document.getElementById('sucursal');
-        const camposAdicionales = document.getElementById('campos-adicionales');
+            productSelect.addEventListener('change', () => {
+                // Cuando cambia el producto, reconstruir grupos (por si cambiaste opciones) y re-render
+                buildOptionGroups();
+                renderUnitSelectors();
+            });
 
-        checkbox.addEventListener('change', function () {
-            if (checkbox.checked) {
-                camposAdicionales.style.display = 'none';
-            } else {
-                camposAdicionales.style.display = 'block';
-            }
+            amountInput.addEventListener('input', () => {
+                // Normalizar cantidad entre min y max si existen
+                const min = parseInt(amountInput.min || 1, 10);
+                const max = parseInt(amountInput.max || 99, 10);
+                let v = parseInt(amountInput.value || min, 10);
+                if (isNaN(v)) v = min;
+                if (v < min) v = min;
+                if (v > max) v = max;
+                amountInput.value = v;
+                renderUnitSelectors();
+            });
+
+            // Reemplaza el onsubmit del form para usar nuestra función
+            const form = document.getElementById('contactForm');
+            if (form) form.onsubmit = sendMessage;
         });
 
-        // Script para mostrar campos de remeras 
-        document.getElementById('product').addEventListener('change', function () {
-    const selectedProduct = this.value;
-    const tallaRemera = document.getElementById('tallaRemera');
-    const corteRemera = document.getElementById('corteRemera');
 
-    // Mostrar u ocultar los selectores según el producto seleccionado
-    if (selectedProduct.startsWith('Remera')) {
-        tallaRemera.style.display = 'block';
-        corteRemera.style.display = 'block';
-    } else {
-        tallaRemera.style.display = 'none';
-        corteRemera.style.display = 'none';
-    }
-});
+        document.addEventListener('DOMContentLoaded', () => {
+            const productSelect = document.getElementById('product');
+            const campoStickers = document.getElementById('campoStickers');
+            const checkboxStickersContainer = document.getElementById('checkboxStickers');
+
+            if (!productSelect) return;
+
+            const actualizarVisibilidad = () => {
+                const esProductoStickers = productSelect.value === "Stickers de programación";
+
+                // Ocultar o mostrar la oferta textual
+                if (campoStickers) {
+                    campoStickers.style.display = esProductoStickers ? 'none' : 'block';
+                }
+
+                // Ocultar o mostrar el checkbox + label de "incluir stickers"
+                if (checkboxStickersContainer) {
+                    checkboxStickersContainer.style.display = esProductoStickers ? 'none' : 'flex';
+                }
+
+                // Si el checkbox estaba marcado y se oculta → se desmarca automáticamente
+                if (esProductoStickers) {
+                    const checkbox = document.getElementById('stickers');
+                    if (checkbox) checkbox.checked = false;
+                }
+            };
+
+            // Estado inicial
+            actualizarVisibilidad();
+
+            // Cuando cambia el producto
+            productSelect.addEventListener('change', () => {
+                actualizarVisibilidad();
+
+                // Por si usas estas funciones en tu código
+                if (typeof buildOptionGroups === 'function') buildOptionGroups();
+                if (typeof renderUnitSelectors === 'function') renderUnitSelectors();
+            });
+        });
+
+
 
     </script>
 
-<script src="/templates/headeryfooter.js"></script>
+    <script src="/templates/headeryfooter.js"></script>
 
-<script src="/js/scripts.js"></script>
-<script src="/js/modernizr.js"></script>
+    <script src="/js/scripts.js"></script>
+    <script src="/js/modernizr.js"></script>
 
 </body>
 
