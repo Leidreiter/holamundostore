@@ -2,27 +2,22 @@
 document.addEventListener("DOMContentLoaded", cargarTemplate);
 
 
-{/* <p>🥳 Tu tienda favorita vuelve a operar en 2026 </p> | 
-<p>🚀 envíos gratis en compras superiores a $?????? </p> |  
-<p>🎨 nuevos diseño disponibles de cuadros, remeras y stickers</p> | 
-<p>🎁 con tu primera compra te llevas de regalo una mystery box</p> |  */}
-
 // HTML del header
 const headerHTML = `
     <div class="promo-banner">
         <div class="promo-track">
           <div class="promo-content">
-            <span>La tienda aún no se encuentra operando</span>
+            <span>🥳 Tu tienda favorita vuelve a operar en 2026</span>
             <span class="separator">|</span>
-            <span>PROXIMAMENTE ANUNCIO DE LANZAMIENTO</span>
+            <span>🎨 nuevos diseño disponibles de cuadros, remeras y stickers</span>
             <span class="separator">|</span>
-            <span>La tienda aún no se encuentra operando</span>
+            <span>🎁 con tu primera compra te llevas de regalo una mystery box</span>
             <span class="separator">|</span>
-            <span>PROXIMAMENTE ANUNCIO DE LANZAMIENTO</span>
+            <span>🥳 Tu tienda favorita vuelve a operar en 2026</span>
             <span class="separator">|</span>
-            <span>La tienda aún no se encuentra operando</span>
+            <span>🎨 nuevos diseño disponibles de cuadros, remeras y stickers</span>
             <span class="separator">|</span>
-            <span>PROXIMAMENTE ANUNCIO DE LANZAMIENTO</span>
+            <span>🎁 con tu primera compra te llevas de regalo una mystery box</span>
             <span class="separator">|</span>
           </div>
         </div>
@@ -106,7 +101,7 @@ const footerHTML = `
                 </div>
                 <div class="footer_listas">
                     <h5 class="footer_titulo">Hecha con ♥️ por:</h5>
-                    <a href="https://soymarcus.pages.dev" target="_blank"><img src="/img/soymarcusdev.svg" class="designby"></a>
+                    <a href="https://soymarcus.pages.dev" target="_blank"><img src="/img/devBy.svg" class="designby"></a>
                 </div>
             </div>
         </div>
