@@ -9,16 +9,15 @@ const headerHTML = `
           <div class="promo-content">
             <span>🥳 Tu tienda favorita vuelve a operar en 2026</span>
             <span class="separator">|</span>
-            <span>🎨 nuevos diseño disponibles de cuadros, remeras y stickers</span>
+            <span>🎨 Nuevos diseño disponibles de cuadros, remeras y stickers</span>
             <span class="separator">|</span>
-            <span>🎁 con tu primera compra te llevas de regalo una mystery box</span>
+            <span>🎁 Con tu primera compra te llevas de regalo una mystery box</span>
             <span class="separator">|</span>
             <span>🥳 Tu tienda favorita vuelve a operar en 2026</span>
             <span class="separator">|</span>
-            <span>🎨 nuevos diseño disponibles de cuadros, remeras y stickers</span>
+            <span>🎨 Nuevos diseño disponibles de cuadros, remeras y stickers</span>
             <span class="separator">|</span>
-            <span>🎁 con tu primera compra te llevas de regalo una mystery box</span>
-            <span class="separator">|</span>
+            <span>🎁 Con tu primera compra te llevas de regalo una mystery box</span>
           </div>
         </div>
       </div>
@@ -26,7 +25,7 @@ const headerHTML = `
     <header class="header">
         <div class="contenedor contenido__header">
             <a href="/index.html">
-                <img loading="lazy" src="/img/logo.png" alt="logo Hola Mundo Store" class="logo">
+                <img loading="lazy" src="/img/iconos-logos/logo.png" alt="logo Hola Mundo Store" class="logo">
             </a>
             <nav class="navegacion navegacion-principal">
                 <!-- menu hamburguesa -->
@@ -46,13 +45,13 @@ const headerHTML = `
             </nav>
             <div class="redes">
                 <a href="https://www.tiktok.com/@soymarcusdev/" target="_new">
-                    <img src="/img/tiktok.svg" alt="tik tok Hola Mundo Store" class="iconored">
+                    <img src="/img/iconos-logos/tiktok.svg" alt="tik tok Hola Mundo Store" class="iconored">
                 </a>
                 <a href="https://www.instagram.com/soymarcusdev/" target="_new">
-                    <img src="/img/instagram.svg" alt="instagram Hola Mundo Store" class="iconored">
+                    <img src="/img/iconos-logos/instagram.svg" alt="instagram Hola Mundo Store" class="iconored">
                 </a>
                 <a href="https://www.youtube.com/@soymarcusdev" target="_new">
-                    <img src="/img/youtube.svg" alt="YouTube Hola Mundo Store" class="iconored">
+                    <img src="/img/iconos-logos/youtube.svg" alt="YouTube Hola Mundo Store" class="iconored">
                 </a>
             </div>
         </div>
@@ -101,7 +100,7 @@ const footerHTML = `
                 </div>
                 <div class="footer_listas">
                     <h5 class="footer_titulo">Hecha con ♥️ por:</h5>
-                    <a href="https://soymarcus.pages.dev" target="_blank"><img src="/img/devBy.svg" class="designby"></a>
+                    <a href="https://soymarcus.dev" target="_blank"><img src="/img/iconos-logos/devBy.svg" class="designby"></a>
                 </div>
             </div>
         </div>
@@ -112,7 +111,7 @@ const footerHTML = `
 const whatsappHTML = `
         <div class="whatsapp">
         <a href="https://wa.me/+5493515957014?text=Hola, quería consultar por ">
-            <img loading="lazy" src="/img/whatsapp.png" alt="whatsapp Hola Mundo Store">
+            <img loading="lazy" src="/img/iconos-logos/whatsapp.png" alt="whatsapp Hola Mundo Store">
         </a>
     </div>
 `;

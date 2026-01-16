@@ -7,7 +7,7 @@ const relRemeras2HTML = `
 
                     <div class="relacionados_bloque card">
                         <a href="/tienda/remeras/html.html">
-                            <img loading="lazy" src="/img/mockup-html.png" alt="remera HTML - mascot logo"
+                            <img loading="lazy" src="/img/remeras/mockup-html.png" alt="remera HTML - mascot logo"
                                 class="bloque__imagen ">
                             <div class="bloque__info">
                                 <h3 class="bloque__nombre no-space">Remera HTML (mascot logo)</h3>
@@ -31,7 +31,7 @@ const relRemeras2HTML = `
 
                     <div class="relacionados_bloque card no-movil">
                         <a href="/tienda/remeras/javascript.html">
-                            <img loading="lazy" src="/img/mockup-javascript.png" alt="remera javascript - mascot logo"
+                            <img loading="lazy" src="/img/remeras/mockup-javascript.png" alt="remera javascript - mascot logo"
                                 class="bloque__imagen ">
                             <div class="bloque__info">
                                 <h3 class="bloque__nombre no-space">Remera JavaScript (mascot logo)</h3>
@@ -54,11 +54,11 @@ const relRemeras2HTML = `
                     </div>
 
                      <div class="relacionados_bloque card">
-                        <a href="/tienda/remeras/phyton.html">
-                            <img loading="lazy" src="/img/mockup-phyton.png" alt="remera Phyton - mascot logo"
+                        <a href="/tienda/remeras/python.html">
+                            <img loading="lazy" src="/img/remeras/mockup-python.png" alt="remera python - mascot logo"
                                 class="bloque__imagen ">
                             <div class="bloque__info">
-                                <h3 class="bloque__nombre no-space">Remera Phyton (mascot logo)</h3>
+                                <h3 class="bloque__nombre no-space">Remera python (mascot logo)</h3>
                                 <p class="bloque__precio no-space precio" data-producto="remeras">$0</p>
                                 <div class="bloque__detalle">
                                     <p class="detalle">Todos los talles disponibles*</p>

@@ -8,7 +8,7 @@ const sideCuadrosHTML = `
                         <ul class="caracteristicas__lista no-space">
                             <li class="lista">
                                 <div class="lista__miniatura">
-                                    <img loading="lazy" src="/img/monokai-pro.jpg"
+                                    <img loading="lazy" src="/img/cuadros/monokai-pro.jpg"
                                         alt="Cuadro Hello World - Monokai Pro" class="miniatura">
                                 </div>
                                 <div class="lista__info">
@@ -24,7 +24,7 @@ const sideCuadrosHTML = `
                         <ul class="caracteristicas__lista no-space">
                             <li class="lista">
                                 <div class="lista__miniatura">
-                                    <img loading="lazy" src="/img/dracula.jpg" alt="Cuadro Hello World - Drácula"
+                                    <img loading="lazy" src="/img/cuadros/dracula.jpg" alt="Cuadro Hello World - Drácula"
                                         class="miniatura">
                                 </div>
                                 <div class="lista__info">
@@ -40,7 +40,7 @@ const sideCuadrosHTML = `
                         <ul class="caracteristicas__lista no-space">
                             <li class="lista">
                                 <div class="lista__miniatura">
-                                    <img loading="lazy" src="/img/gruvbox.jpg"
+                                    <img loading="lazy" src="/img/cuadros/gruvbox.jpg"
                                         alt="Cuadro Hello World - Gruvbox" class="miniatura">
                                 </div>
                                 <div class="lista__info">
@@ -56,7 +56,7 @@ const sideCuadrosHTML = `
                         <ul class="caracteristicas__lista no-space">
                             <li class="lista">
                                 <div class="lista__miniatura">
-                                    <img loading="lazy" src="/img/somos-campeones.jpg"
+                                    <img loading="lazy" src="/img/cuadros/somos-campeones.jpg"
                                         alt="Cuadro Hello World - edición especial" class="miniatura">
                                 </div>
                                 <div class="lista__info">
@@ -71,7 +71,7 @@ const sideCuadrosHTML = `
                         <ul class="caracteristicas__lista no-space">
                             <li class="lista">
                                 <div class="lista__miniatura">
-                                    <img loading="lazy" src="/img/custom.png" alt="cuadro hello world - personalizado"
+                                    <img loading="lazy" src="/img/cuadros/custom.png" alt="Cuadro Hello World - personalizado"
                                         class="miniatura">
                                 </div>
                                 <div class="lista__info">

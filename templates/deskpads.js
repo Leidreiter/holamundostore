@@ -9,8 +9,8 @@ const deskpadsHTML = `
             <div class="bloque">
                 <a href="/tienda/deskpads/monokaipro.html">
                     <picture>
-                        <source srcset="/img/hw3.webp" type="image/webp">
-                        <img loading="lazy" src="/img/hw3.png" alt="deskpad hello world - monokai pro" class="bloque__imagen ">
+                        <source srcset="/img/deskpads/hw3.webp" type="image/webp">
+                        <img loading="lazy" src="/img/deskpads/hw3.png" alt="deskpad hello world - monokai pro" class="bloque__imagen ">
                     </picture>
                     <div class="bloque__info">
                         <h3 class="bloque__nombre no-space">DeskPad Hello World - Monokai Pro</h3>
@@ -34,8 +34,8 @@ const deskpadsHTML = `
             <div class="bloque">
                 <a href="/tienda/deskpads/dracula.html">
                     <picture>
-                        <source srcset="/img/hw4.webp" type="image/webp">
-                        <img loading="lazy" src="/img/hw4.png" alt="desk pad hello world - drácula theme" class="bloque__imagen ">
+                        <source srcset="/img/deskpads/hw4.webp" type="image/webp">
+                        <img loading="lazy" src="/img/deskpads/hw4.png" alt="desk pad hello world - drácula theme" class="bloque__imagen ">
                     </picture>
                     <div class="bloque__info">
                         <h3 class="bloque__nombre no-space">DeskPad Hello World - Drácula theme</h3>
@@ -59,8 +59,8 @@ const deskpadsHTML = `
             <div class="bloque">
                 <a href="/tienda/deskpads/gruvbox.html">
                     <picture>
-                        <source srcset="/img/hw2.webp" type="image/webp">
-                        <img loading="lazy" src="/img/hw2.png" alt="deskpad hello world - gruvbox theme" class="bloque__imagen ">
+                        <source srcset="/img/deskpads/hw2.webp" type="image/webp">
+                        <img loading="lazy" src="/img/deskpads/hw2.png" alt="deskpad hello world - gruvbox theme" class="bloque__imagen ">
                     </picture>
                 <div class="bloque__info">
                     <h3 class="bloque__nombre no-space">DeskPad Hello World - Gruvbox</h3>
@@ -84,8 +84,8 @@ const deskpadsHTML = `
             <div class="bloque">
                 <a href="/tienda/deskpads/customtheme.html">
                     <picture>
-                        <source srcset="/img/hw1.webp" type="image/webp">
-                        <img loading="lazy" src="/img/hw1.png" alt="deskpad hello world - personalizado" class="bloque__imagen ">
+                        <source srcset="/img/deskpads/hw1.webp" type="image/webp">
+                        <img loading="lazy" src="/img/deskpads/hw1.png" alt="deskpad hello world - personalizado" class="bloque__imagen ">
                     </picture>
                     <div class="bloque__info">
                         <h3 class="bloque__nombre no-space">DeskPad Hello World - personalizado</h3>

@@ -7,7 +7,7 @@ const relRemerasHTML = `
 
                     <div class="relacionados_bloque card">
                         <a href="/tienda/remeras/thisisfine.html">
-                            <img loading="lazy" src="/img/mockup-this-is-fine.png" alt="remera this is fine!"
+                            <img loading="lazy" src="/img/remeras/mockup-this-is-fine.png" alt="remera this is fine!"
                                 class="bloque__imagen ">
                             <div class="bloque__info">
                                 <h3 class="bloque__nombre no-space">This is fine!</h3>
@@ -31,7 +31,7 @@ const relRemerasHTML = `
 
                     <div class="relacionados_bloque card">
                         <a href="/tienda/remeras/babydonthurtme.html">
-                            <img loading="lazy" src="/img/mockup-BDHM.png" alt="remera baby dont hurt me"
+                            <img loading="lazy" src="/img/remeras/mockup-BDHM.png" alt="remera baby dont hurt me"
                                 class="bloque__imagen ">
                             <div class="bloque__info">
                                 <h3 class="bloque__nombre no-space">Baby dont hurt me</h3>
@@ -55,7 +55,7 @@ const relRemerasHTML = `
 
                     <div class="relacionados_bloque card no-movil">
                         <a href="/tienda/remeras/github.html">
-                            <img loading="lazy" src="/img/mockup-github.png" alt="remera github"
+                            <img loading="lazy" src="/img/remeras/mockup-github.png" alt="remera github"
                                 class="bloque__imagen ">
                             <div class="bloque__info">
                                 <h3 class="bloque__nombre no-space">Github - mona</h3>

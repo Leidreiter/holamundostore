@@ -632,7 +632,7 @@ ul.menu li a {
 
 
 .banner-img1 {
-    background: url('/img/banner-promo1.jpg');
+    background: url('/img/banners/banner-promo1.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -642,7 +642,7 @@ ul.menu li a {
 }
 
 .banner-img2 {
-    background: url('/img/banner-promo2.png');
+    background: url('/img/banners/banner-promo2.png');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1246,6 +1246,7 @@ button.next {
     align-items: center;
     max-width: 768px;
     margin-top: 3rem;
+    margin-bottom: 3rem;
     background-color: var(--blanco);
     padding: 1rem;
     border-radius: .8rem;

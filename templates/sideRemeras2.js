@@ -9,8 +9,8 @@ const sideRemeras2HTML = `
                             <li class="lista">
                                 <div class="lista__miniatura">
                                 <picture>
-                                <source srcset="/img/mockup-php.webp" type="image/webp">
-                                <img loading="lazy" src="/img/mockup-php.png" alt="remera php - mascot logo" class="miniatura">
+                                <source srcset="/img/remeras/mockup-php.webp" type="image/webp">
+                                <img loading="lazy" src="/img/remeras/mockup-php.png" alt="remera php - mascot logo" class="miniatura">
                                 </picture>
                                 </div>
                                 <div class="lista__info">
@@ -27,8 +27,8 @@ const sideRemeras2HTML = `
                             <li class="lista">
                                 <div class="lista__miniatura">
                                 <picture>
-                                <source srcset="/img/mockup-angular.webp" type="image/webp">
-                                <img loading="lazy" src="/img/mockup-angular.png" alt="remera Angular - mascot logo" class="miniatura">                                
+                                <source srcset="/img/remeras/mockup-angular.webp" type="image/webp">
+                                <img loading="lazy" src="/img/remeras/mockup-angular.png" alt="remera Angular - mascot logo" class="miniatura">                                
                                 </picture>
                                 </div>
                                 <div class="lista__info">
@@ -45,8 +45,8 @@ const sideRemeras2HTML = `
                             <li class="lista">
                                 <div class="lista__miniatura">
                                 <picture>
-                                <source srcset="/img/mockup-react.webp" type="image/webp">
-                                <img loading="lazy" src="/img/mockup-react.png" alt="remera React - mascot logo" class="miniatura">                                
+                                <source srcset="/img/remeras/mockup-react.webp" type="image/webp">
+                                <img loading="lazy" src="/img/remeras/mockup-react.png" alt="remera React - mascot logo" class="miniatura">                                
                                 </picture>
                                 </div>
                                 <div class="lista__info">
@@ -63,8 +63,8 @@ const sideRemeras2HTML = `
                             <li class="lista">
                                 <div class="lista__miniatura">
                                 <picture>
-                                <source srcset="/img/mockup-vue.webp" type="image/webp">
-                                <img loading="lazy" src="/img/mockup-vue.png" alt="remera vue - mascot logo" class="miniatura">
+                                <source srcset="/img/remeras/mockup-vue.webp" type="image/webp">
+                                <img loading="lazy" src="/img/remeras/mockup-vue.png" alt="remera vue - mascot logo" class="miniatura">
                                 </picture>
                                 </div>
                                 <div class="lista__info">

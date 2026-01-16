@@ -8,8 +8,8 @@ const cuadrosHTML = `
             <div class="bloque">
                 <a href="/tienda/cuadros/monokaipro.html">
                     <picture>
-                        <source srcset="/img/monokai-pro.webp" type="image/webp">
-                        <img loading="lazy" src="/img/monokai-pro.jpg" alt="Cuadro Hello World - Monokai Pro" class="bloque__imagen ">
+                        <source srcset="/img/cuadros/monokai-pro.webp" type="image/webp">
+                        <img loading="lazy" src="/img/cuadros/monokai-pro.jpg" alt="Cuadro Hello World - Monokai Pro" class="bloque__imagen ">
                     </picture>
                     
                     <div class="bloque__info">
@@ -35,8 +35,8 @@ const cuadrosHTML = `
             <div class="bloque">
                 <a href="/tienda/cuadros/dracula.html">
                     <picture>
-                        <source srcset="/img/dracula.webp" type="image/webp">
-                        <img loading="lazy" src="/img/dracula.jpg" alt="Cuadro Hello World - Drácula" class="bloque__imagen ">
+                        <source srcset="/img/cuadros/dracula.webp" type="image/webp">
+                        <img loading="lazy" src="/img/cuadros/dracula.jpg" alt="Cuadro Hello World - Drácula" class="bloque__imagen ">
                     </picture>
                     
                     <div class="bloque__info">
@@ -62,8 +62,8 @@ const cuadrosHTML = `
             <div class="bloque">
                 <a href="/tienda/cuadros/gruvbox.html">
                     <picture>
-                        <source srcset="/img/gruvbox.webp" type="image/webp">
-                        <img loading="lazy" src="/img/gruvbox.jpg" alt="Cuadro Hello World - Gruvbox" class="bloque__imagen ">
+                        <source srcset="/img/cuadros/gruvbox.webp" type="image/webp">
+                        <img loading="lazy" src="/img/cuadros/gruvbox.jpg" alt="Cuadro Hello World - Gruvbox" class="bloque__imagen ">
                     </picture>
 
                     <div class="bloque__info">
@@ -89,8 +89,8 @@ const cuadrosHTML = `
             <div class="bloque">
                 <a href="/tienda/cuadros/edicionespecial.html">
                     <picture>
-                        <source srcset="/img/somos-campeones.webp" type="image/webp">
-                        <img loading="lazy" src="/img/somos-campeones.jpg" alt="Cuadro Hello World - edición especial" class="bloque__imagen ">
+                        <source srcset="/img/cuadros/somos-campeones.webp" type="image/webp">
+                        <img loading="lazy" src="/img/cuadros/somos-campeones.jpg" alt="Cuadro Hello World - edición especial" class="bloque__imagen ">
                     </picture>
 
                     <div class="bloque__info">

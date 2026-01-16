@@ -5,14 +5,14 @@ const bannerGithubHTML = `
         <div class="banner__imagen">
             <a href="/tienda/otros/github-rgb.html">
                 <picture>
-                    <source srcset="/img/octocat.webp" type="image/webp">
-                    <img loading="lazy" src="/img/octocat.jpg" alt="banner cuadro personalizado" class="block border">
+                    <source srcset="/img/banners/octocat.webp" type="image/webp">
+                    <img loading="lazy" src="/img/banners/octocat.jpg" alt="banner cuadro personalizado" class="block border">
                 </picture>
             </a>
         </div>
         <div class="banner__info">
             <div class="banner__info__icono">
-                <img loading="lazy" src="/img/icono-mona.png" alt="ícono personalizado">
+                <img loading="lazy" src="/img/iconos-logos/icono-mona.png" alt="ícono personalizado">
             </div>
             <div class="banner__info__copy">
                 <h4 class="no-space b1">Dale color 🔴🟢🔵</h4>

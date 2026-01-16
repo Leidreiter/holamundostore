@@ -9,8 +9,8 @@ const sideRemerasHTML = `
                             <li class="lista">
                                 <div class="lista__miniatura">
                                 <picture>
-                                <source srcset="/img/mockup-anti-coding.webp" type="image/webp">
-                                <img loading="lazy" src="/img/mockup-anti-coding.png" alt="remera anti coding coding club - Hola Mundo Store" class="miniatura">
+                                <source srcset="/img/remeras/mockup-anti-coding.webp" type="image/webp">
+                                <img loading="lazy" src="/img/remeras/mockup-anti-coding.png" alt="remera anti coding coding club - Hola Mundo Store" class="miniatura">
                                 </picture>
                                 </div>
                                 <div class="lista__info">
@@ -27,8 +27,8 @@ const sideRemerasHTML = `
                             <li class="lista">
                                 <div class="lista__miniatura">
                                 <picture>
-                                <source srcset="/img/mockup-this-is-fine.webp" type="image/webp">
-                                <img loading="lazy" src="/img/mockup-this-is-fine.png" alt="remera this is fine - Hola Mundo Store" class="miniatura">                                
+                                <source srcset="/img/remeras/mockup-this-is-fine.webp" type="image/webp">
+                                <img loading="lazy" src="/img/remeras/mockup-this-is-fine.png" alt="remera this is fine - Hola Mundo Store" class="miniatura">                                
                                 </picture>
                                 </div>
                                 <div class="lista__info">
@@ -45,8 +45,8 @@ const sideRemerasHTML = `
                             <li class="lista">
                                 <div class="lista__miniatura">
                                 <picture>
-                                <source srcset="/img/mockup-BDHM.webp" type="image/webp">
-                                <img loading="lazy" src="/img/mockup-BDHM.png" alt="remera baby dont hurt me - Hola Mundo Store" class="miniatura">                                
+                                <source srcset="/img/remeras/mockup-BDHM.webp" type="image/webp">
+                                <img loading="lazy" src="/img/remeras/mockup-BDHM.png" alt="remera baby dont hurt me - Hola Mundo Store" class="miniatura">                                
                                 </picture>
                                 </div>
                                 <div class="lista__info">
@@ -63,8 +63,8 @@ const sideRemerasHTML = `
                             <li class="lista">
                                 <div class="lista__miniatura">
                                 <picture>
-                                <source srcset="/img/mockup-github.webp" type="image/webp">
-                                <img loading="lazy" src="/img/mockup-github.png" alt="remera github the octocat- Hola Mundo Store" class="miniatura">
+                                <source srcset="/img/remeras/mockup-github.webp" type="image/webp">
+                                <img loading="lazy" src="/img/remeras/mockup-github.png" alt="remera github the octocat- Hola Mundo Store" class="miniatura">
                                 </picture>
                                 </div>
                                 <div class="lista__info">

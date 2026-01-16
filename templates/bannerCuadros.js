@@ -5,14 +5,14 @@ const bannerCuadrosHTML = `
         <div class="banner__imagen">
             <a href="/tienda/cuadros/customtheme.html">
                 <picture>
-                    <source srcset="/img/banner-personalizado.webp" type="image/webp">
-                    <img loading="lazy" src="/img/banner-personalizado.png" alt="banner cuadro personalizado" class="block border">
+                    <source srcset="/img/banners/banner-personalizado.webp" type="image/webp">
+                    <img loading="lazy" src="/img/banners/banner-personalizado.png" alt="banner cuadro personalizado" class="block border">
                 </picture>
             </a>
         </div>
         <div class="banner__info">
             <div class="banner__info__icono">
-                <img loading="lazy" src="/img/cuentagotas.png" alt="ícono personalizado" class="block">   
+                <img loading="lazy" src="/img/iconos-logos/cuentagotas.png" alt="ícono personalizado" class="block">   
             </div>
             <div class="banner__info__copy">
                 <h4 class="no-space b1">Personalizálo</h4>
