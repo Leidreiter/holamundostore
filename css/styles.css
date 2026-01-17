@@ -1038,6 +1038,10 @@ button.next {
         padding: 2rem;
     }
 }
+.publi-titulo{
+    font-size: 1.6rem;
+    line-height: 1.6;
+}
 
 /* Añadir a favoritos */
 .favorito {
@@ -1233,7 +1237,7 @@ button.next {
 }
 
 /* Banner mercadolibre */
-.banner-ml {
+.banner-publi {
     border-radius: .8rem;
     margin-top: 1rem;
 }
