@@ -4,29 +4,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Hola Mundo Store | Merchandising para Programadores en Argentina</title>
+
     <meta name="description"
         content="Hola Mundo Store es la tienda online desde Córdoba con envío a todo el país. Encontrá remeras, pósters, mousepads y stickers con diseños únicos inspirados en la programación, la tecnología y el mundo geek. Expresá tu pasión por el código con estilo.">
-    <link rel="icon" href="/img/iconos-logos/favicon.svg" type="image/svg+xml"> <!-- Formato SVG -->
+
+    <link rel="icon" href="/img/iconos-logos/favicon.svg" type="image/svg+xml">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link rel="preload"
-        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=New+Amsterdam&display=swap"
-        as="font" crossorigin="crossorigin">
     <link rel="preload" href="/css/normalize.css" as="style">
     <link rel="preload" href="/css/styles.css" as="style">
 
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=New+Amsterdam&display=swap"
         rel="stylesheet">
+
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="/css/styles.css">
 
-    <link rel="prefetch" href="/tienda/cuadros.html" as="document">
+    <link rel="prefetch" href="/tienda/remeras.html" as="document">
 
-    <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://holamundo.store/">
     <meta property="og:title" content="Hola Mundo Store - tienda online">
@@ -37,7 +37,6 @@
     <meta property="og:site_name" content="Hola Mundo Store">
     <meta property="og:locale" content="es_ES">
 
-    <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://holamundo.store/">
     <meta name="twitter:title" content="Hola Mundo Store - tienda online">
@@ -57,7 +56,7 @@
                 <picture>
                     <source srcset="/img/slide/slide-1.png" media="(min-width: 768px)">
                     <source srcset="/img/slide/min/slide-1-min.png">
-                    <img src="/img/slide/min/slide-1-min.png" alt="Imagen 1" loading="lazy">
+                    <img src="/img/slide/min/slide-1-min.png" alt="Imagen 1" fetchpriority="high">
                 </picture>
             </div>
             <div class="slide">
@@ -742,13 +741,11 @@
 
 
     <!-- // TEMPLATES // -->
-    <script src="/templates/headeryfooter.js"></script>
-    <script src="/templates/bannerCuadros.js"></script>
-    <script src="/templates/bannerGithub.js"></script>
-
-    <!-- // SCRIPTS // -->
-    <script src="/js/scripts.js"></script>
-    <script src="/js/modernizr.js"></script>
+    <script src="/js/scripts.js" defer></script>
+    <script src="/templates/headeryfooter.js" defer></script>
+    <script src="/templates/bannerCuadros.js" defer></script>
+    <script src="/templates/bannerGithub.js" defer></script>
+    
 </body>
 
 </html>

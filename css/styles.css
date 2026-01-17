@@ -64,6 +64,9 @@ h4 {
 h5 {
     color: var(--dark);
 }
+button{
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 @media (min-width: 768px) {
     h1 {
@@ -788,16 +791,19 @@ ul.menu li a {
 
 button.prev,
 button.next {
+    font-family: Arial, Helvetica, sans-serif;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
     border: none;
-    border-radius: 50%;
     cursor: pointer;
     z-index: 10;
-
+    border-radius: .8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 button.prev:hover,
 button.next:hover {
@@ -806,18 +812,31 @@ button.next:hover {
 
 button.prev {
     left: 15px;
-    font-size: 40px;
-    line-height: 0;
-    width: 60px;
-    height: 60px;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
 }
 
 button.next {
     right: 15px;
-    font-size: 40px;
-    line-height: 0;
-    width: 60px;
-    height: 60px;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+}
+@media (min-width: 768px) {
+    button.prev {
+        left: 15px;
+        font-size: 40px;
+        width: 60px;
+        height: 60px;
+    }
+    
+    button.next {
+        right: 15px;
+        font-size: 40px;
+        width: 60px;
+        height: 60px;
+    }
 }
 
 /* Te puede interesar */

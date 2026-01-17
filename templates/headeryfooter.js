@@ -100,7 +100,7 @@ const footerHTML = `
                 </div>
                 <div class="footer_listas">
                     <h5 class="footer_titulo">Hecha con ♥️ por:</h5>
-                    <a href="https://soymarcus.dev" target="_blank"><img src="/img/iconos-logos/devBy.svg" class="designby"></a>
+                    <a href="https://soymarcus.dev" target="_blank"><img src="/img/iconos-logos/devBy.svg" class="designby" alt="Diseño y desarrollo web por Soy Marcus - Martin Leidreiter"></a>
                 </div>
             </div>
         </div>
