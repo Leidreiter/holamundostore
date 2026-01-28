@@ -4,34 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Hola Mundo Store | Merchandising para Programadores en Argentina</title>
-
-    <meta name="description"
-        content="Hola Mundo Store es la tienda online desde Córdoba con envío a todo el país. Encontrá remeras, pósters, mousepads y stickers con diseños únicos inspirados en la programación, la tecnología y el mundo geek. Expresá tu pasión por el código con estilo.">
-
+    <meta name="description" content="Tienda online con los mejores productos. Envíos a todo el país.">
+    <meta name="keywords" content="tienda, productos, ecommerce, compras online">
+    <title>Hola Mundo Store | Merchandise para Programadores en Argentina</title>
     <link rel="icon" href="/img/iconos-logos/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="css/styles.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link rel="preload" href="/css/normalize.css" as="style">
-    <link rel="preload" href="/css/styles.css" as="style">
-
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=New+Amsterdam&display=swap"
-        rel="stylesheet">
-
-    <link rel="stylesheet" href="/css/normalize.css">
-    <link rel="stylesheet" href="/css/styles.css">
-
-    <link rel="prefetch" href="/tienda/remeras.html" as="document">
+    <!-- CDN Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://holamundo.store/">
     <meta property="og:title" content="Hola Mundo Store - tienda online">
     <meta property="og:description"
-        content="La única tienda online de merchandising para developers (y amantes del código) de Argentina con envío gratuito a todo el país.">
+        content="La única tienda online de Merchandise para developers (y amantes del código) de Argentina con envío gratuito a todo el país.">
     <meta property="og:image" content="https://holamundo.store/img/preview.jpg">
     <meta property="og:image:alt" content="Imagen preview de la web Hola Mundo Store 2026">
     <meta property="og:site_name" content="Hola Mundo Store">
@@ -41,711 +29,279 @@
     <meta name="twitter:url" content="https://holamundo.store/">
     <meta name="twitter:title" content="Hola Mundo Store - tienda online">
     <meta name="twitter:description"
-        content="La única tienda online de merchandising para developers (y amantes del código) de Argentina con envío gratuito a todo el país.">
+        content="La única tienda online de Merchandise para developers (y amantes del código) de Argentina con envío gratuito a todo el país.">
     <meta name="twitter:image" content="https://holamundo.store/img/preview.jpg">
     <meta name="twitter:image:alt" content="Imagen preview de la web Hola Mundo Store 2026">
 </head>
 
-<body>
+<body data-page="inicio">
+    <!-- Header se cargará dinámicamente -->
 
-    <header></header>
-    <!--Slider nuevo-->
-    <div class="slider">
-        <div class="slides">
-            <div class="slide">
-                <picture>
-                    <source srcset="/img/slide/slide-1.png" media="(min-width: 768px)">
-                    <source srcset="/img/slide/min/slide-1-min.png">
-                    <img src="/img/slide/min/slide-1-min.png" alt="Imagen 1" fetchpriority="high">
-                </picture>
-            </div>
-            <div class="slide">
-                <picture>
-                    <source srcset="/img/slide/slide-2.png" media="(min-width: 768px)">
-                    <source srcset="/img/slide/min/slide-2-min.png">
-                    <img src="/img/slide/min/slide-2-min.png" alt="Imagen 1" loading="lazy">
-                </picture>
-            </div>
-            <div class="slide">
-                <picture>
-                    <source srcset="/img/slide/slide-3.png" media="(min-width: 768px)">
-                    <source srcset="/img/slide/min/slide-3-min.png">
-                    <img src="/img/slide/min/slide-3-min.png" alt="Imagen 1" loading="lazy">
-                </picture>
-            </div>
-            <div class="slide">
-                <picture>
-                    <source srcset="/img/slide/slide-4.png" media="(min-width: 768px)">
-                    <source srcset="/img/slide/min/slide-4-min.png">
-                    <img src="/img/slide/min/slide-4-min.png" alt="Imagen 1" loading="lazy">
-                </picture>
-            </div>
-            <div class="slide">
-                <picture>
-                    <source srcset="/img/slide/slide-5.png" media="(min-width: 768px)">
-                    <source srcset="/img/slide/min/slide-5-min.png">
-                    <img src="/img/slide/min/slide-5-min.png" alt="Imagen 1" loading="lazy">
-                </picture>
-            </div>
-            <div class="slide">
-                <picture>
-                    <source srcset="/img/slide/slide-6.png" media="(min-width: 768px)">
-                    <source srcset="/img/slide/min/slide-6-min.png">
-                    <img src="/img/slide/min/slide-6-min.png" alt="Imagen 1" loading="lazy">
-                </picture>
-            </div>
-            <div class="slide">
-                <picture>
-                    <source srcset="/img/slide/slide-7.png" media="(min-width: 768px)">
-                    <source srcset="/img/slide/min/slide-7-min.png">
-                    <img src="/img/slide/min/slide-7-min.png" alt="Imagen 1" loading="lazy">
-                </picture>
-            </div>
-            
-        </div>
-        <button class="prev">‹</button>
-        <button class="next">›</button>
-    </div>
+    <main>
 
-    <!--cuadros-->
-    <main class="contenedor contenido" id="cuadros">
-        <h3 class="titulos">Los elegidos por todos</h3>
-        <div class="bloques">
+        <!--<section class="hero">
+            <div class="hero-copy">
+                <div class="cont1200 grid">
+                <h1>Bienvenido a Nuestra Tienda</h1>
+                <p>Descubre productos de calidad al mejor precio</p>
+                </div>
+            </div>
+        </section>-->
 
-            <div class="bloque card">
-                <a href="/tienda/cuadros/monokaipro.html">
-                    <picture>
-                        <source srcset="/img/cuadros/monokai-pro.webp" type="image/webp">
-                        <img loading="lazy" src="/img/cuadros/monokai-pro.jpg" alt="Cuadro Hello World - Monokai Pro"
-                            class="bloque__imagen">
-                    </picture>
 
-                    <div class="bloque__info">
-                        <h3 class="bloque__nombre no-space">Cuadro Hello World - Monokai Pro</h3>
-                        <p class="bloque__precio no-space precio" data-producto="cuadros">$0</p>
-                        <div class="bloque__detalle">
-                            <p class="detalle">Marcos de distintos colores*</p>
-                            <p class="bloque__envio no-space">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bolt"
-                                    width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00a650"
-                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                    <path d="M13 3l0 7l6 0l-8 11l0 -7l-6 0l8 -11" />
-                                </svg>
-                                <b>Envío gratis</b>
-                            </p>
+        <section class="hero-slider">
+            <div class="slider-track">
+
+                <div class="slider-slide active">
+                    <img src="img/slides/slide-1.png" alt="Promoción 1">
+                    
+                    <!--<div class="slider-content">
+                        <div class="slider-text cont1200">
+                            <h1>Bienvenido a Nuestra Tienda</h1>
+                            <p>Descubre productos de calidad al mejor precio</p>
                         </div>
+                    </div>-->
+                </div>
 
+                <div class="slider-slide">
+                    <img src="img/slides/slide-2.png" alt="Promoción 2">
+                    <div class="slider-content">
+                        <!--<div class="slider-text cont1200">
+                            <h1>Nuevas Colecciones</h1>
+                            <p>Las últimas tendencias ya están aquí</p>
+                        </div>-->
                     </div>
-                </a>
-            </div>
+                </div>
 
-            <div class="bloque card">
-                <a href="/tienda/cuadros/dracula.html">
-                    <picture>
-                        <source srcset="/img/cuadros/dracula.webp" type="image/webp">
-                        <img loading="lazy" src="/img/cuadros/dracula.jpg" alt="Cuadro Hello World - Drácula"
-                            class="bloque__imagen">
-                    </picture>
+                <div class="slider-slide">
+                    <img src="img/slides/slide-3.png" alt="Promoción 3">
+                    <div class="slider-content">
+                        <!--<div class="slider-text cont1200">
+                            <h1>Ofertas Exclusivas</h1>
+                            <p>Hasta 50% de descuento en productos seleccionados</p>
+                        </div>-->
+                    </div>
+                </div>
 
-                    <div class="bloque__info">
-                        <h3 class="bloque__nombre no-space">Cuadro Hello World - Drácula</h3>
-                        <p class="bloque__precio no-space precio" data-producto="cuadros">$0</p>
-                        <div class="bloque__detalle">
-                            <p class="detalle">Marcos de distintos colores*</p>
-                            <p class="bloque__envio no-space">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bolt"
-                                    width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00a650"
-                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                    <path d="M13 3l0 7l6 0l-8 11l0 -7l-6 0l8 -11" />
-                                </svg>
-                                <b>Envío gratis</b>
-                            </p>
+                <div class="slider-slide">
+                    <img src="img/slides/slide-4.png" alt="Promoción 4">
+                    <!--<div class="slider-content">
+                        <div class="slider-text cont1200">
+                            <h1>Envíos a Todo el País</h1>
+                            <p>Compra desde la comodidad de tu hogar</p>
                         </div>
+                    </div>-->
+                </div>
 
-                    </div>
-                </a>
-            </div>
-
-            <div class="bloque card">
-                <a href="/tienda/cuadros/gruvbox.html">
-                    <picture>
-                        <source srcset="/img/cuadros/gruvbox.webp" type="image/webp">
-                        <img loading="lazy" src="/img/cuadros/gruvbox.jpg" alt="Cuadro Hello World - Gruvbox"
-                            class="bloque__imagen">
-                    </picture>
-
-                    <div class="bloque__info">
-                        <h3 class="bloque__nombre no-space">Cuadro Hello World - Gruvbox</h3>
-                        <p class="bloque__precio no-space precio" data-producto="cuadros">$0</p>
-                        <div class="bloque__detalle">
-                            <p class="detalle">Marcos de distintos colores*</p>
-                            <p class="bloque__envio no-space">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bolt"
-                                    width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00a650"
-                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                    <path d="M13 3l0 7l6 0l-8 11l0 -7l-6 0l8 -11" />
-                                </svg>
-                                <b>Envío gratis</b>
-                            </p>
+                <div class="slider-slide">
+                    <img src="img/slides/slide-5.png" alt="Promoción 4">
+                    <!--<div class="slider-content">
+                        <div class="slider-text cont1200">
+                            <h1>Envíos a Todo el País</h1>
+                            <p>Compra desde la comodidad de tu hogar</p>
                         </div>
+                    </div>-->
+                </div>
 
-                    </div>
-                </a>
-            </div>
-
-            <div class="bloque card">
-                <a href="/tienda/cuadros/edicionespecial.html">
-                    <picture>
-                        <source srcset="/img/cuadros/somos-campeones.webp" type="image/webp">
-                        <img loading="lazy" src="/img/cuadros/somos-campeones.jpg" alt="Cuadro Hello World - edición especial"
-                            class="bloque__imagen">
-                    </picture>
-
-
-                    <div class="bloque__info">
-                        <h3 class="bloque__nombre no-space">Cuadro Hello World - edición especial</h3>
-                        <p class="bloque__precio no-space precio" data-producto="cuadros">$0</p>
-                        <div class="bloque__detalle">
-                            <p class="detalle">Marcos de distintos colores*</p>
-                            <p class="bloque__envio no-space">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bolt"
-                                    width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00a650"
-                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                    <path d="M13 3l0 7l6 0l-8 11l0 -7l-6 0l8 -11" />
-                                </svg>
-                                <b>Envío gratis</b>
-                            </p>
+                <div class="slider-slide">
+                    <img src="img/slides/slide-6.png" alt="Promoción 4">
+                    <!--<div class="slider-content">
+                        <div class="slider-text cont1200">
+                            <h1>Envíos a Todo el País</h1>
+                            <p>Compra desde la comodidad de tu hogar</p>
                         </div>
-
-                    </div>
-                </a>
+                    </div>-->
+                </div>
             </div>
 
-        </div>
+
+            <button class="slider-nav prev" aria-label="Slide anterior">‹</button>
+            <button class="slider-nav next" aria-label="Slide siguiente">›</button>
+
+        </section>
+
+
+        <div id="tienda"></div>
+
+        <section class="search-section">
+            <div class="search-container">
+                <input type="search" id="searchInput" class="search-input" placeholder="Buscar productos..."
+                    aria-label="Buscar productos">
+                <button class="clear-search" id="clearSearch" aria-label="Limpiar búsqueda">✕</button>
+            </div>
+            <p class="search-results" id="searchResults"></p>
+        </section>
+
+        <!-- Resultados de búsqueda (solo visible cuando hay búsqueda activa) -->
+        <section id="productos" class="products-section">
+
+            <div class="products-grid" id="productsGrid">
+                <!-- Los resultados de búsqueda se cargarán aquí -->
+            </div>
+
+            <div class="no-results" id="noResults">
+                <p>No se encontraron productos que coincidan con tu búsqueda</p>
+                <button class="btn-primary" onclick="limpiarBusqueda()">Ver todos los productos</button>
+            </div>
+        </section>
+
+        <!-- Sección de Cuadros -->
+        <section class="category-section" id="cuadros-section">
+            <!-- Aquí puedes agregar tu banner personalizado -->
+            <!-- Ejemplo: <img src="/img/banners/cuadros-banner.jpg" alt="Banner Cuadros" style="width: 100%; border-radius: 12px; margin-bottom: 2rem;"> -->
+
+            <div class="products-grid" id="gridCat1">
+                <!-- Los productos de cuadros se cargarán aquí -->
+            </div>
+        </section>
+
+        <section class="contenedor">
+            <div class="banner">
+                <div class="banner_imagen">
+                    <a href="#">
+                        <img loading="lazy" src="img/banners/banner-personalizado.webp" alt="banner">
+                    </a>
+                </div>
+                <div class="banner_info">
+                    <div class="banner_info_icono">
+                        <img loading="lazy" src="img/cuentagotas.png" alt="ícono personalizado" class="block">
+                    </div>
+                    <div class="banner_info_copy">
+                        <h4>Personalizalo 🫟</h4>
+                        <h2>Lo hacemos <br>
+                            con tu theme</h2>
+                        <a href="#">Más info <i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Remeras -->
+        <section class="category-section" id="remeras-section">
+            <!-- Aquí puedes agregar tu banner personalizado -->
+            <!-- Ejemplo: <img src="/img/banners/remeras-banner.jpg" alt="Banner Remeras" style="width: 100%; border-radius: 12px; margin-bottom: 2rem;"> -->
+
+
+            <div class="products-grid" id="gridCat2">
+                <!-- Los productos de remeras se cargarán aquí -->
+            </div>
+        </section>
+
+        <section class="contenedor">
+
+            <div class="banners-productos">
+                <div class="banner-productos-contenido">
+                    <div class="banner-promo-info">
+                        <h4>Tenemos</h4>
+                        <h2>Stickers</h2>
+                        <p class="no-space">+45 Stickers de vinilo.</p>
+                        <a href="#" class="btn">Ver producto</a>
+                    </div>
+                    <div class="banner-img1">
+                    </div>
+                </div>
+
+                <div class="banner-productos-contenido">
+                    <div class="banner-promo-info">
+                        <h4>También</h4>
+                        <h2>DeskPads</h2>
+                        <!--<p class="no-space">Con tus banners.</p>-->
+                        <a href="#" class="btn">Ver producto</a>
+                    </div>
+                    <div class="banner-img2">
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Sección de Deskpads -->
+        <section class="category-section" id="deskpads-section">
+            <!-- Aquí puedes agregar tu banner personalizado -->
+            <!-- Ejemplo: <img src="/img/banners/deskpads-banner.jpg" alt="Banner Deskpads" style="width: 100%; border-radius: 12px; margin-bottom: 2rem;"> -->
+
+
+            <div class="products-grid" id="gridCat3">
+                <!-- Los productos de deskpads se cargarán aquí -->
+            </div>
+        </section>
+
+        <section class="contenedor">
+            <div class="banner">
+                <div class="banner_imagen">
+                    <a href="#">
+                        <img loading="lazy" src="img/banners/octocat.webp" alt="banner">
+                    </a>
+                </div>
+                <div class="banner_info">
+                    <div class="banner_info_icono">
+                        <img loading="lazy" src="img/icono-mona.png" alt="ícono personalizado" class="block">
+                    </div>
+                    <div class="banner_info_copy">
+                        <h4>Dale color 🔴🟢🔵</h4>
+                        <h2>A tu setup<br>
+                            con mona</h2>
+                        <a href="#">Ver producto <i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Otros -->
+        <section class="category-section" id="otros-section">
+            <!-- Aquí puedes agregar tu banner personalizado -->
+            <!-- Ejemplo: <img src="/img/banners/otros-banner.jpg" alt="Banner Otros" style="width: 100%; border-radius: 12px; margin-bottom: 2rem;"> -->
+
+
+            <div class="products-grid" id="gridCat4">
+                <!-- Los productos de otros se cargarán aquí -->
+            </div>
+        </section>
     </main>
 
-    <!--Banner cuadro custom-->
-    <div id="bannerCuadros"></div>
-
-
-
-    <!--Banners stickers + deskpads-->
-    <section class="contenedor">
-        <div class="banners-promo">
-            <div class="contenido banner-promo">
-                <div class="banner-promo__info">
-                    <h4 href="" class="bp1">Tenemos</h4>
-                    <h2 class="bp2">Stickers</h2>
-                    <!--<a href="#remeras" class="btn azul">Ver diseños</a>-->
-                    <p class="no-space">48 Stickers de vinilo.</p>
-                    <a href="/tienda/otros/stickers.html" class="btn azul">Ver diseños</a>
-                </div>
-                <div class="banner-img1">
-                </div>
-            </div>
-
-            <div class="contenido banner-promo">
-                <div class="banner-promo__info">
-                    <h4 href="" class="bp1">También</ªª>
-                        <h2 class="bp2">Desk Pads</h2>
-                        <a href="/tienda/deskpads.html" class="btn azul">Ver diseños</a>
-                </div>
-                <div class="banner-img2">
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <!--Remeras-->
-    <section class="contenedor contenido" id="remeras">
-        <h3 class="titulos">Muchas remeras, muchos diseños</h3>
-        <div class="bloques">
-
-
-            <div class="bloque card">
-                <a href="/tienda/remeras/html.html">
-                    <picture>
-                        <source srcset="/img/remeras/mockup-html.webp" type="image/webp">
-                        <img loading="lazy" src="/img/remeras/mockup-html.png" alt="remera html - mascot logo"
-                            class="bloque__imagen">
-                    </picture>
-                    <div class="bloque__info">
-                        <h3 class="bloque__nombre no-space">HTML (mascot logo)</h3>
-                        <p class="bloque__precio no-space precio" data-producto="remeras">$0</p>
-                        <div class="bloque__detalle">
-                            <p class="detalle">Todos los talles disponibles*</p>
-                            <p class="bloque__envio no-space">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bolt"
-                                    width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00a650"
-                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                    <path d="M13 3l0 7l6 0l-8 11l0 -7l-6 0l8 -11" />
-                                </svg>
-                                <b>Envío gratis</b>
-                            </p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-            <div class="bloque card">
-                <a href="/tienda/remeras/css.html">
-                    <picture>
-                        <source srcset="/img/remeras/mockup-css.webp" type="image/webp">
-                        <img loading="lazy" src="/img/remeras/mockup-css.png" alt="remera css - mascot logo"
-                            class="bloque__imagen">
-                    </picture>
-                    <div class="bloque__info">
-                        <h3 class="bloque__nombre no-space">CSS (mascot logo)</h3>
-                        <p class="bloque__precio no-space precio" data-producto="remeras">$0</p>
-                        <div class="bloque__detalle">
-                            <p class="detalle">Todos los talles disponibles*</p>
-                            <p class="bloque__envio no-space">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bolt"
-                                    width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00a650"
-                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                    <path d="M13 3l0 7l6 0l-8 11l0 -7l-6 0l8 -11" />
-                                </svg>
-                                <b>Envío gratis</b>
-                            </p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-            <div class="bloque card">
-                <a href="/tienda/remeras/javascript.html">
-                    <picture>
-                        <source srcset="/img/remeras/mockup-javascript.webp" type="image/webp">
-                        <img loading="lazy" src="/img/remeras/mockup-javascript.png" alt="remera javascript - mascot logo"
-                            class="bloque__imagen">
-                    </picture>
-                    <div class="bloque__info">
-                        <h3 class="bloque__nombre no-space">JavaScript (mascot logo)</h3>
-                        <p class="bloque__precio no-space precio" data-producto="remeras">$0</p>
-                        <div class="bloque__detalle">
-                            <p class="detalle">Todos los talles disponibles*</p>
-                            <p class="bloque__envio no-space">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bolt"
-                                    width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00a650"
-                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                    <path d="M13 3l0 7l6 0l-8 11l0 -7l-6 0l8 -11" />
-                                </svg>
-                                <b>Envío gratis</b>
-                            </p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-            <div class="bloque card">
-                <a href="/tienda/remeras/python.html">
-                    <picture>
-                        <source srcset="/img/remeras/mockup-python.webp" type="image/webp">
-                        <img loading="lazy" src="/img/remeras/mockup-python.png" alt="remera python - mascot logo"
-                            class="bloque__imagen">
-                    </picture>
-                    <div class="bloque__info">
-                        <h3 class="bloque__nombre no-space">python (mascot logo)</h3>
-                        <p class="bloque__precio no-space precio" data-producto="remeras">$0</p>
-                        <div class="bloque__detalle">
-                            <p class="detalle">Todos los talles disponibles*</p>
-                            <p class="bloque__envio no-space">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bolt"
-                                    width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00a650"
-                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                    <path d="M13 3l0 7l6 0l-8 11l0 -7l-6 0l8 -11" />
-                                </svg>
-                                <b>Envío gratis</b>
-                            </p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-            <div class="bloque card">
-                <a href="/tienda/remeras/php.html">
-                    <picture>
-                        <source srcset="/img/remeras/mockup-php.webp" type="image/webp">
-                        <img loading="lazy" src="/img/remeras/mockup-php.png" alt="remera php - mascot logo"
-                            class="bloque__imagen">
-                    </picture>
-                    <div class="bloque__info">
-                        <h3 class="bloque__nombre no-space">PHP (mascot logo)</h3>
-                        <p class="bloque__precio no-space precio" data-producto="remeras">$0</p>
-                        <div class="bloque__detalle">
-                            <p class="detalle">Todos los talles disponibles*</p>
-                            <p class="bloque__envio no-space">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bolt"
-                                    width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00a650"
-                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                    <path d="M13 3l0 7l6 0l-8 11l0 -7l-6 0l8 -11" />
-                                </svg>
-                                <b>Envío gratis</b>
-                            </p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-            <div class="bloque card">
-                <a href="/tienda/remeras/angular.html">
-                    <picture>
-                        <source srcset="/img/remeras/mockup-angular.webp" type="image/webp">
-                        <img loading="lazy" src="/img/remeras/mockup-angular.png" alt="remera angular - mascot logo"
-                            class="bloque__imagen">
-                    </picture>
-                    <div class="bloque__info">
-                        <h3 class="bloque__nombre no-space">Angular (mascot logo)</h3>
-                        <p class="bloque__precio no-space precio" data-producto="remeras">$0</p>
-                        <div class="bloque__detalle">
-                            <p class="detalle">Todos los talles disponibles*</p>
-                            <p class="bloque__envio no-space">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bolt"
-                                    width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00a650"
-                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                    <path d="M13 3l0 7l6 0l-8 11l0 -7l-6 0l8 -11" />
-                                </svg>
-                                <b>Envío gratis</b>
-                            </p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-            <div class="bloque card">
-                <a href="/tienda/remeras/react.html">
-                    <picture>
-                        <source srcset="/img/remeras/mockup-react.webp" type="image/webp">
-                        <img loading="lazy" src="/img/remeras/mockup-react.png" alt="remera react - mascot logo"
-                            class="bloque__imagen">
-                    </picture>
-                    <div class="bloque__info">
-                        <h3 class="bloque__nombre no-space">React (mascot logo)</h3>
-                        <p class="bloque__precio no-space precio" data-producto="remeras">$0</p>
-                        <div class="bloque__detalle">
-                            <p class="detalle">Todos los talles disponibles*</p>
-                            <p class="bloque__envio no-space">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bolt"
-                                    width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00a650"
-                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                    <path d="M13 3l0 7l6 0l-8 11l0 -7l-6 0l8 -11" />
-                                </svg>
-                                <b>Envío gratis</b>
-                            </p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-            <div class="bloque card">
-                <a href="/tienda/remeras/vue.html">
-                    <picture>
-                        <source srcset="/img/remeras/mockup-vue.webp" type="image/webp">
-                        <img loading="lazy" src="/img/remeras/mockup-vue.png" alt="remera vue - mascot logo"
-                            class="bloque__imagen">
-                    </picture>
-                    <div class="bloque__info">
-                        <h3 class="bloque__nombre no-space">Vue (mascot logo)</h3>
-                        <p class="bloque__precio no-space precio" data-producto="remeras">$0</p>
-                        <div class="bloque__detalle">
-                            <p class="detalle">Todos los talles disponibles*</p>
-                            <p class="bloque__envio no-space">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bolt"
-                                    width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00a650"
-                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                    <path d="M13 3l0 7l6 0l-8 11l0 -7l-6 0l8 -11" />
-                                </svg>
-                                <b>Envío gratis</b>
-                            </p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-            <div class="bloque card">
-                <a href="/tienda/remeras/babydonthurtme.html">
-                    <picture>
-                        <source srcset="/img/remeras/mockup-BDHM.webp" type="image/webp">
-                        <img loading="lazy" src="/img/remeras/mockup-BDHM.png" alt="remera baby dont hurt me"
-                            class="bloque__imagen">
-                    </picture>
-                    <div class="bloque__info">
-                        <h3 class="bloque__nombre no-space">Baby dont hurt me</h3>
-                        <p class="bloque__precio no-space precio" data-producto="remeras">$0</p>
-                        <div class="bloque__detalle">
-                            <p class="detalle">Todos los talles disponibles*</p>
-                            <p class="bloque__envio no-space">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bolt"
-                                    width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00a650"
-                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                    <path d="M13 3l0 7l6 0l-8 11l0 -7l-6 0l8 -11" />
-                                </svg>
-                                <b>Envío gratis</b>
-                            </p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-            <div class="bloque card">
-                <a href="/tienda/remeras/github.html">
-                    <picture>
-                        <source srcset="/img/remeras/mockup-github.webp" type="image/webp">
-                        <img loading="lazy" src="/img/remeras/mockup-github.png" alt="remera mona, the octocat"
-                            class="bloque__imagen">
-                    </picture>
-                    <div class="bloque__info">
-                        <h3 class="bloque__nombre no-space">Github (Mona)</h3>
-                        <p class="bloque__precio no-space precio" data-producto="remeras">$0</p>
-                        <div class="bloque__detalle">
-                            <p class="detalle">Todos los talles disponibles*</p>
-                            <p class="bloque__envio no-space">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bolt"
-                                    width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00a650"
-                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                    <path d="M13 3l0 7l6 0l-8 11l0 -7l-6 0l8 -11" />
-                                </svg>
-                                <b>Envío gratis</b>
-                            </p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-            <div class="bloque card">
-                <a href="/tienda/remeras/thisisfine.html">
-                    <picture>
-                        <source srcset="/img/remeras/mockup-this-is-fine.webp" type="image/webp">
-                        <img loading="lazy" src="/img/remeras/mockup-this-is-fine.png" alt="remera dog this is fine"
-                            class="bloque__imagen">
-                    </picture>
-                    <div class="bloque__info">
-                        <h3 class="bloque__nombre no-space">This is fine!</h3>
-                        <p class="bloque__precio no-space precio" data-producto="remeras">$0</p>
-                        <div class="bloque__detalle">
-                            <p class="detalle">Todos los talles disponibles*</p>
-                            <p class="bloque__envio no-space">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bolt"
-                                    width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00a650"
-                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                    <path d="M13 3l0 7l6 0l-8 11l0 -7l-6 0l8 -11" />
-                                </svg>
-                                <b>Envío gratis</b>
-                            </p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-
-
-            <div class="bloque card">
-                <a href="/tienda/remeras/anticodingclub.html">
-                    <picture>
-                        <source srcset="/img/remeras/mockup-anti-coding.webp" type="image/webp">
-                        <img loading="lazy" src="/img/remeras/mockup-anti-coding.png" alt="remera anti coding coding club"
-                            class="bloque__imagen">
-                    </picture>
-                    <div class="bloque__info">
-                        <h3 class="bloque__nombre no-space">Anti coding coding club</h3>
-                        <p class="bloque__precio no-space precio" data-producto="remeras">$0</p>
-                        <div class="bloque__detalle">
-                            <p class="detalle">Todos los talles disponibles*</p>
-                            <p class="bloque__envio no-space">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bolt"
-                                    width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00a650"
-                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                    <path d="M13 3l0 7l6 0l-8 11l0 -7l-6 0l8 -11" />
-                                </svg>
-                                <b>Envío gratis</b>
-                            </p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-
-        </div>
-    </section>
-
-
-    <!--Banner Github-->
-    <div id="bannerGithub"></div>
-    <!--fin Banner Github-->
-
-    <!--Desk Pads-->
-    <section class="contenedor contenido" id="deskpads">
-
-        <h3 class="titulos">Tu lugar, tu setup</h3>
-        <div class="bloques">
-
-            <div class="bloque card">
-                <a href="/tienda/deskpads/monokaipro.html">
-                    <picture>
-                        <source srcset="/img/deskpads/hw3.webp" type="image/webp">
-                        <img loading="lazy" src="/img/deskpads/hw3.png" alt="deskpad hello world - monokai pro"
-                            class="bloque__imagen">
-                    </picture>
-                    <div class="bloque__info">
-                        <h3 class="bloque__nombre no-space">DeskPad Hello World - Monokai Pro</h3>
-                        <p class="bloque__precio no-space precio" data-producto="deskpads">$0</p>
-                        <div class="bloque__detalle">
-                            <!--<p class="detalle">Marcos de distintos colores*</p>-->
-                            <p class="bloque__envio no-space">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bolt"
-                                    width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00a650"
-                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                    <path d="M13 3l0 7l6 0l-8 11l0 -7l-6 0l8 -11" />
-                                </svg>
-                                <b>Envío gratis</b>
-                            </p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-            <div class="bloque card">
-                <a href="/tienda/deskpads/dracula.html">
-                    <picture>
-                        <source srcset="/img/deskpads/hw4.webp" type="image/webp">
-                        <img loading="lazy" src="/img/deskpads/hw4.png" alt="desk pad hello world - drácula theme"
-                            class="bloque__imagen">
-                    </picture>
-                    <div class="bloque__info">
-                        <h3 class="bloque__nombre no-space">DeskPad Hello World - Drácula theme</h3>
-                        <p class="bloque__precio no-space precio" data-producto="deskpads">$0</p>
-                        <div class="bloque__detalle">
-                            <!--<p class="detalle">Marcos de distintos colores*</p>-->
-                            <p class="bloque__envio no-space">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bolt"
-                                    width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00a650"
-                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                    <path d="M13 3l0 7l6 0l-8 11l0 -7l-6 0l8 -11" />
-                                </svg>
-                                <b>Envío gratis</b>
-                            </p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-            <div class="bloque card">
-                <a href="/tienda/deskpads/gruvbox.html">
-                    <picture>
-                        <source srcset="/img/deskpads/hw2.webp" type="image/webp">
-                        <img loading="lazy" src="/img/deskpads/hw2.png" alt="deskpad hello world - gruvbox theme"
-                            class="bloque__imagen">
-                    </picture>
-                    <div class="bloque__info">
-                        <h3 class="bloque__nombre no-space">DeskPad Hello World - Gruvbox</h3>
-                        <p class="bloque__precio no-space precio" data-producto="deskpads">$0</p>
-                        <div class="bloque__detalle">
-                            <!--<p class="detalle">Marcos de distintos colores*</p>-->
-                            <p class="bloque__envio no-space">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bolt"
-                                    width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00a650"
-                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                    <path d="M13 3l0 7l6 0l-8 11l0 -7l-6 0l8 -11" />
-                                </svg>
-                                <b>Envío gratis</b>
-                            </p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-            <div class="bloque card">
-                <a href="/tienda/deskpads/customtheme.html">
-                    <picture>
-                        <source srcset="/img/deskpads/hw1.webp" type="image/webp">
-                        <img loading="lazy" src="/img/deskpads/hw1.png" alt="deskpad hello world - personalizado"
-                            class="bloque__imagen">
-                    </picture>
-                    <div class="bloque__info">
-                        <h3 class="bloque__nombre no-space">DeskPad Hello World - personalizado</h3>
-                        <p class="bloque__precio no-space precio" data-producto="deskpadsCustom">$0</p>
-                        <div class="bloque__detalle">
-                            <!--<p class="detalle">Marcos de distintos colores*</p>-->
-                            <p class="bloque__envio no-space">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bolt"
-                                    width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00a650"
-                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                    <path d="M13 3l0 7l6 0l-8 11l0 -7l-6 0l8 -11" />
-                                </svg>
-                                <b>Envío gratis</b>
-                            </p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-        </div>
-
-    </section>
-
-    <div class="iconos-pie">
-        <div class="iconos contenedor">
+    <section class="iconos-pie">
+        <div class="iconos cont1200">
             <div class="icono">
-                <img loading="lazy" src="/img/iconos-logos/icono-pagos.png" alt="icono pagos en Hola Mundo Store"
-                    class="icono__imagen">
+                <img loading="lazy" src="img/icono-pagos.png" alt="icono pagos en Hola Mundo Store">
                 <h3>Muchas formas de pago</h3>
-                <p class="icono__copy">Trabajo con mercadopago, lo cuál se aceptan todos los medios de pagos
-                    de la villetera virtual número 1 de Argentina, para que compres con total confianza.
+                <p>Trabajo con mercadopago, lo cuál se aceptan todos los medios de pagos
+                    de la billetera virtual número 1 de Argentina, para que compres con total confianza.
                 </p>
             </div>
             <div class="icono">
-                <img loading="lazy" src="/img/iconos-logos/icono-envios.png" alt="icono envios en Hola Mundo Store"
-                    class="icono__imagen">
+                <img loading="lazy" src="img/icono-envios.png" alt="icono envios en Hola Mundo Store">
                 <h3>Envíos a toda Argentina</h3>
-                <p class="icono__copy">Envío a toda la Argentina de norte a sur, todos los pedidos salen
+                <p>Envío a toda la Argentina de norte a sur, todos los pedidos salen
                     desde Córdoba, Argentina y pueden variar dependiendo tu ubicación.
                 </p>
             </div>
             <div class="icono">
-                <img loading="lazy" src="/img/iconos-logos/icono-stock.png" alt="icono stock en Hola Mundo Store"
-                    class="icono__imagen">
+                <img loading="lazy" src="img/icono-stock.png" alt="icono stock en Hola Mundo Store">
                 <h3>Stock siempre disponible</h3>
-                <p class="icono__copy">Toda la web opera bajo pedido, compra con total confianza, yo
-                    me counicaré contigo personalmente para asegurar que llegué lo que pidas.
+                <p>Toda la web opera bajo pedido, compra con total confianza, yo
+                    me comunicaré contigo personalmente para asegurar que llegue lo que pidas.
                 </p>
             </div>
         </div>
-    </div>
 
+    </section>
 
+    <!-- <section id="contacto" class="contact-section">
+        <h2>Contacto</h2>
+        <p>¿Tienes alguna pregunta? Contáctanos por WhatsApp</p>
+        <a href="https://wa.me/545555555555" class="whatsapp-btn" target="_blank" rel="noopener">
+            Enviar WhatsApp
+        </a>
+    </section> -->
+    <!-- Footer se cargará dinámicamente -->
 
-    <div id="bannerCuadros"></div>
-    <div id="whatsapp"></div>
-    <footer></footer>
-
-
-
-    <!-- // TEMPLATES // -->
-    <script src="/js/scripts.js" defer></script>
-    <script src="/templates/headeryfooter.js" defer></script>
-    <script src="/templates/bannerCuadros.js" defer></script>
-    <script src="/templates/bannerGithub.js" defer></script>
-    
+    <script src="js/template.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/productos.js"></script>
+    <script src="js/carrito.js"></script>
+    <script src="js/busqueda.js"></script>
+    <script src="js/productos-categorias.js"></script>
+    <script src="js/hero-slider.js"></script>
 </body>
 
 </html>

@@ -1,65 +1,92 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Hola Mundo Store, el paraíso del merchandising para programadores: cuadros, stickers, mousepads y remeras que expresan tu pasión por el código.">
-    <title>Hola Mundo Store - Todo para developers</title>
-    <link rel="icon" href="/img/iconos-logos/favicon.svg" type="image/svg+xml"> <!-- Formato SVG -->
+    <meta name="description" content="Tienda online con los mejores productos. Envíos a todo el país.">
+    <meta name="keywords" content="tienda, productos, ecommerce, compras online">
+    <title>Mi Tienda Online - Productos de Calidad</title>
+    <link rel="stylesheet" href="css/styles.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=New+Amsterdam&display=swap" as="font" crossorigin="crossorigin">
-    <link rel="preload" href="/css/normalize.css" as="style">
-    <link rel="preload" href="/css/styles.css" as="style">
-    
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=New+Amsterdam&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/normalize.css">
-    <link rel="stylesheet" href="/css/styles.css">
-
-    <link rel="prefetch" href=/tienda/cuadros.html as="document">
-        <!-- Open Graph / Facebook -->
-        <meta property="og:type" content="website">
-        <meta property="og:url" content="https://holamundo.store/">
-        <meta property="og:title" content="Hola Mundo Store - tienda online">
-        <meta property="og:description"
-            content="La única tienda online de merchandising para developers (y amantes del código) de Argentina con envío gratuito a todo el país.">
-        <meta property="og:image" content="https://holamundo.store/img/preview.jpg">
-        <meta property="og:image:alt" content="Imagen preview de la web Hola Mundo Store 2026">
-        <meta property="og:site_name" content="Hola Mundo Store">
-        <meta property="og:locale" content="es_ES">
-    
-        <!-- Twitter Card -->
-        <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:url" content="https://holamundo.store/">
-        <meta name="twitter:title" content="Hola Mundo Store - tienda online">
-        <meta name="twitter:description"
-            content="La única tienda online de merchandising para developers (y amantes del código) de Argentina con envío gratuito a todo el país.">
-        <meta name="twitter:image" content="https://holamundo.store/img/preview.jpg">
-        <meta name="twitter:image:alt" content="Imagen preview de la web Hola Mundo Store 2026">
+    <!-- CDN Font Awesome -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"/>
 </head>
+<body data-page="gracias">
+    <!-- Header se cargará dinámicamente -->
 
-<body>
-    <header></header>
+    <main class="thank-you-page">
+        <div class="success-container">
+            <div class="success-icon">
+                <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <path d="M9 12l2 2 4-4"></path>
+                </svg>
+            </div>
+            
+            <h1>¡Pedido Recibido con Éxito!</h1>
+            
+            <p class="success-message">
+                Gracias por tu compra. Tu pedido ha sido tomado correctamente y hemos recibido toda la información.
+            </p>
+            
+            <div class="info-box">
+                <h2>Próximos Pasos</h2>
+                <p>
+                    Te confirmaremos por <strong>WhatsApp</strong> cuando recibamos tu transferencia bancaria. 
+                    Una vez confirmado el pago, procederemos con el envío de tu pedido.
+                </p>
+            </div>
 
-    <main class="gracias contenedor">
- 
-            <h1 class="gracias_titulo">Gracias por tu compra</h1>
-            <img loading="lazy" src="/img/iconos-logos/gracias.png" alt="" class="bitmoji">
+            <div class="payment-section">
+                <h2>Datos para Realizar la Transferencia</h2>
+                <p class="payment-intro">Por favor, realiza la transferencia a la siguiente cuenta:</p>
+                
+                <table class="payment-table">
+                    <tbody>
+                        <tr>
+                            <td class="table-label">Entidad Bancaria:</td>
+                            <td class="table-value">Mercado Pago</td>
+                        </tr>
+                        <tr>
+                            <td class="table-label">Titular:</td>
+                            <td class="table-value">Martin Horacio Leidreiter</td>
+                        </tr>
+                        <tr>
+                            <td class="table-label">Alias:</td>
+                            <td class="table-value">
+                                <strong class="alias-highlight">hola.mundo.2023</strong>
+                                <button class="copy-btn" onclick="copiarAlias()" aria-label="Copiar alias">
+                                    Copiar
+                                </button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
 
+                <div class="amount-box" id="amountBox">
+                    <p class="amount-label">Monto a Transferir:</p>
+                    <p class="amount-value" id="totalAmount">$0.00</p>
+                </div>
+            </div>
+
+            <div class="actions">
+                <a href="index.html" class="btn-primary">Volver a la Tienda</a>
+                <a href="https://wa.me/545555555555" class="btn-secondary" target="_blank" rel="noopener">
+                    Contactar por WhatsApp
+                </a>
+            </div>
+        </div>
     </main>
 
-    <div id="whatsapp"></div>
-    <footer></footer>
+    <!-- Footer se cargará dinámicamente -->
 
-
-    <script src="/templates/headeryfooter.js"></script>
-    
-    <script src="/js/scripts.js"></script>
-    
-
+    <script src="js/template.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/gracias.js"></script>
 </body>
-
 </html>

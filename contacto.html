@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tienda online con los mejores productos. Envíos a todo el país.">
+    <meta name="keywords" content="tienda, productos, ecommerce, compras online">
+    <title>Mi Tienda Online - Productos de Calidad</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- CDN Font Awesome -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"/>
+</head>
+<body data-page="contacto">
+    <!-- Header se cargará dinámicamente -->
+
+    <main class="contact-page">
+        <div class="contact-container">
+            <h1>Contáctanos</h1>
+            <p class="contact-intro">
+                ¿Tienes alguna pregunta o consulta? Completa el formulario y te responderemos a través de WhatsApp lo antes posible.
+            </p>
+
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <label for="contactName">Nombre *</label>
+                    <input 
+                        type="text" 
+                        id="contactName" 
+                        name="nombre" 
+                        placeholder="Tu nombre completo"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="contactMessage">Mensaje *</label>
+                    <textarea 
+                        id="contactMessage" 
+                        name="mensaje" 
+                        placeholder="Escribe tu consulta aquí..."
+                        required
+                        rows="6"
+                    ></textarea>
+                </div>
+
+                <button type="submit" class="submit-contact-btn">
+                    <span>Enviar por WhatsApp</span>
+                    <span>📱</span>
+                </button>
+            </form>
+        </div>
+    </main>
+
+    <!-- Footer se cargará dinámicamente -->
+
+    <script src="js/template.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/contacto-form.js"></script>
+</body>
+</html>
