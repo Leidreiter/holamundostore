@@ -1,6 +1,6 @@
 // Base de datos de productos con galería de imágenes
 // Generado automáticamente desde Google Sheets
-// Última actualización: 28/1/2026, 03:24:26
+// Última actualización: 28/1/2026, 07:16:28
 
 const productos = [
     {
@@ -20,6 +20,445 @@ const productos = [
             "Medidas: 32 x 42 cm",
             "Gramaje: 200gr",
             "Impresión: Láser"
+        ]
+    },
+    {
+        id: 2,
+        nombre: "Cuadro Hello World - Drácula 30x40cm",
+        descripcion: "¡Atención programadores y frikis del código! Este cuadro es un verdadero tributo al clásico Hello World... ",
+        descripcionDetallada: "Perfecto para darle ese toque geek a tu setup, oficina o rincón de código. Es más que un simple cuadro: es un grito de batalla para quienes viven entre líneas de código y compilaciones infinitas.",
+        precio: 55000,
+        imagen: "img/productos/placeholder.png",
+        galeria: [
+            "img/productos/placeholder.png"
+        ],
+        categoria: "cuadros",
+        stock: 500,
+        caracteristicas: [
+            "Materiales: Madera y Vidrio",
+            "Medidas: 32 x 42 cm",
+            "Gramaje: 200gr",
+            "Impresión: Láser"
+        ]
+    },
+    {
+        id: 3,
+        nombre: "Cuadro Hello World - Gruvbox 30x40cm",
+        descripcion: "¡Atención programadores y frikis del código! Este cuadro es un verdadero tributo al clásico Hello World... ",
+        descripcionDetallada: "Perfecto para darle ese toque geek a tu setup, oficina o rincón de código. Es más que un simple cuadro: es un grito de batalla para quienes viven entre líneas de código y compilaciones infinitas.",
+        precio: 55000,
+        imagen: "img/productos/placeholder.png",
+        galeria: [
+            "img/productos/placeholder.png"
+        ],
+        categoria: "cuadros",
+        stock: 500,
+        caracteristicas: [
+            "Materiales: Madera y Vidrio",
+            "Medidas: 32 x 42 cm",
+            "Gramaje: 200gr",
+            "Impresión: Láser"
+        ]
+    },
+    {
+        id: 4,
+        nombre: "Cuadro Hello World - Edición Especial 30x40cm",
+        descripcion: "¡Atención programadores y frikis del código! Este cuadro es un verdadero tributo al clásico Hello World... ",
+        descripcionDetallada: "Perfecto para darle ese toque geek a tu setup, oficina o rincón de código. Es más que un simple cuadro: es un grito de batalla para quienes viven entre líneas de código y compilaciones infinitas.",
+        precio: 55000,
+        imagen: "img/productos/placeholder.png",
+        galeria: [
+            "img/productos/placeholder.png"
+        ],
+        categoria: "cuadros",
+        stock: 500,
+        caracteristicas: [
+            "Materiales: Madera y Vidrio",
+            "Medidas: 32 x 42 cm",
+            "Gramaje: 200gr",
+            "Impresión: Láser"
+        ]
+    },
+    {
+        id: 5,
+        nombre: "Cuadro Hello World - Personalizado 30x40cm",
+        descripcion: "¡Atención programadores y frikis del código! Este cuadro es un verdadero tributo al clásico Hello World... ",
+        descripcionDetallada: "Perfecto para darle ese toque geek a tu setup, oficina o rincón de código. Es más que un simple cuadro: es un grito de batalla para quienes viven entre líneas de código y compilaciones infinitas.",
+        precio: 65000,
+        imagen: "img/productos/placeholder.png",
+        galeria: [
+            "img/productos/placeholder.png"
+        ],
+        categoria: "otros",
+        stock: 500,
+        caracteristicas: [
+            "Materiales: Madera y Vidrio",
+            "Medidas: 32 x 42 cm",
+            "Gramaje: 200gr",
+            "Impresión: Láser"
+        ]
+    },
+    {
+        id: 6,
+        nombre: "HTML (mascot logo)",
+        descripcion: "Lleva tu código siempre contigo con nuestras remeras de programación, creadas para quienes respiran tecnología.",
+        descripcionDetallada: "Nuestras remeras combinan estilo y actitud para esos devs que no se conforman con lo básico. Ideales para lucir en meetups, entre monitores o cuando estás en modo deep work con un café infinito al lado.",
+        precio: 40000,
+        imagen: "img/productos/placeholder.png",
+        galeria: [
+            "img/productos/placeholder.png"
+        ],
+        categoria: "remeras",
+        stock: 50,
+        caracteristicas: [
+            "Materiales: Poliester",
+            "Tipo de tela: Spum",
+            "Tipo de manga: Corta",
+            "Cuello: Redondo",
+            "Medidas: S, M, L, XL, XXL",
+            "Impresión: Sublimadas"
+        ]
+    },
+    {
+        id: 7,
+        nombre: "CSS (mascot logo)",
+        descripcion: "Lleva tu código siempre contigo con nuestras remeras de programación, creadas para quienes respiran tecnología.",
+        descripcionDetallada: "Nuestras remeras combinan estilo y actitud para esos devs que no se conforman con lo básico. Ideales para lucir en meetups, entre monitores o cuando estás en modo deep work con un café infinito al lado.",
+        precio: 40000,
+        imagen: "img/productos/placeholder.png",
+        galeria: [
+            "img/productos/placeholder.png"
+        ],
+        categoria: "remeras",
+        stock: 50,
+        caracteristicas: [
+            "Materiales: Poliester",
+            "Tipo de tela: Spum",
+            "Tipo de manga: Corta",
+            "Cuello: Redondo",
+            "Medidas: S, M, L, XL, XXL",
+            "Impresión: Sublimadas"
+        ]
+    },
+    {
+        id: 8,
+        nombre: "JavaScript (mascot logo)",
+        descripcion: "Lleva tu código siempre contigo con nuestras remeras de programación, creadas para quienes respiran tecnología.",
+        descripcionDetallada: "Nuestras remeras combinan estilo y actitud para esos devs que no se conforman con lo básico. Ideales para lucir en meetups, entre monitores o cuando estás en modo deep work con un café infinito al lado.",
+        precio: 40000,
+        imagen: "img/productos/placeholder.png",
+        galeria: [
+            "img/productos/placeholder.png"
+        ],
+        categoria: "remeras",
+        stock: 50,
+        caracteristicas: [
+            "Materiales: Poliester",
+            "Tipo de tela: Spum",
+            "Tipo de manga: Corta",
+            "Cuello: Redondo",
+            "Medidas: S, M, L, XL, XXL",
+            "Impresión: Sublimadas"
+        ]
+    },
+    {
+        id: 9,
+        nombre: "Python (mascot logo)",
+        descripcion: "Lleva tu código siempre contigo con nuestras remeras de programación, creadas para quienes respiran tecnología.",
+        descripcionDetallada: "Nuestras remeras combinan estilo y actitud para esos devs que no se conforman con lo básico. Ideales para lucir en meetups, entre monitores o cuando estás en modo deep work con un café infinito al lado.",
+        precio: 40000,
+        imagen: "img/productos/placeholder.png",
+        galeria: [
+            "img/productos/placeholder.png"
+        ],
+        categoria: "remeras",
+        stock: 50,
+        caracteristicas: [
+            "Materiales: Poliester",
+            "Tipo de tela: Spum",
+            "Tipo de manga: Corta",
+            "Cuello: Redondo",
+            "Medidas: S, M, L, XL, XXL",
+            "Impresión: Sublimadas"
+        ]
+    },
+    {
+        id: 10,
+        nombre: "PHP (mascot logo)",
+        descripcion: "Lleva tu código siempre contigo con nuestras remeras de programación, creadas para quienes respiran tecnología.",
+        descripcionDetallada: "Nuestras remeras combinan estilo y actitud para esos devs que no se conforman con lo básico. Ideales para lucir en meetups, entre monitores o cuando estás en modo deep work con un café infinito al lado.",
+        precio: 40000,
+        imagen: "img/productos/placeholder.png",
+        galeria: [
+            "img/productos/placeholder.png"
+        ],
+        categoria: "remeras",
+        stock: 50,
+        caracteristicas: [
+            "Materiales: Poliester",
+            "Tipo de tela: Spum",
+            "Tipo de manga: Corta",
+            "Cuello: Redondo",
+            "Medidas: S, M, L, XL, XXL",
+            "Impresión: Sublimadas"
+        ]
+    },
+    {
+        id: 11,
+        nombre: "Angular (mascot logo)",
+        descripcion: "Lleva tu código siempre contigo con nuestras remeras de programación, creadas para quienes respiran tecnología.",
+        descripcionDetallada: "Nuestras remeras combinan estilo y actitud para esos devs que no se conforman con lo básico. Ideales para lucir en meetups, entre monitores o cuando estás en modo deep work con un café infinito al lado.",
+        precio: 40000,
+        imagen: "img/productos/placeholder.png",
+        galeria: [
+            "img/productos/placeholder.png"
+        ],
+        categoria: "remeras",
+        stock: 50,
+        caracteristicas: [
+            "Materiales: Poliester",
+            "Tipo de tela: Spum",
+            "Tipo de manga: Corta",
+            "Cuello: Redondo",
+            "Medidas: S, M, L, XL, XXL",
+            "Impresión: Sublimadas"
+        ]
+    },
+    {
+        id: 12,
+        nombre: "React (mascot logo)",
+        descripcion: "Lleva tu código siempre contigo con nuestras remeras de programación, creadas para quienes respiran tecnología.",
+        descripcionDetallada: "Nuestras remeras combinan estilo y actitud para esos devs que no se conforman con lo básico. Ideales para lucir en meetups, entre monitores o cuando estás en modo deep work con un café infinito al lado.",
+        precio: 40000,
+        imagen: "img/productos/placeholder.png",
+        galeria: [
+            "img/productos/placeholder.png"
+        ],
+        categoria: "remeras",
+        stock: 50,
+        caracteristicas: [
+            "Materiales: Poliester",
+            "Tipo de tela: Spum",
+            "Tipo de manga: Corta",
+            "Cuello: Redondo",
+            "Medidas: S, M, L, XL, XXL",
+            "Impresión: Sublimadas"
+        ]
+    },
+    {
+        id: 13,
+        nombre: "Vue (mascot logo)",
+        descripcion: "Lleva tu código siempre contigo con nuestras remeras de programación, creadas para quienes respiran tecnología.",
+        descripcionDetallada: "Nuestras remeras combinan estilo y actitud para esos devs que no se conforman con lo básico. Ideales para lucir en meetups, entre monitores o cuando estás en modo deep work con un café infinito al lado.",
+        precio: 40000,
+        imagen: "img/productos/placeholder.png",
+        galeria: [
+            "img/productos/placeholder.png"
+        ],
+        categoria: "remeras",
+        stock: 50,
+        caracteristicas: [
+            "Materiales: Poliester",
+            "Tipo de tela: Spum",
+            "Tipo de manga: Corta",
+            "Cuello: Redondo",
+            "Medidas: S, M, L, XL, XXL",
+            "Impresión: Sublimadas"
+        ]
+    },
+    {
+        id: 14,
+        nombre: "Baby don't hurt me",
+        descripcion: "Lleva tu código siempre contigo con nuestras remeras de programación, creadas para quienes respiran tecnología.",
+        descripcionDetallada: "Nuestras remeras combinan estilo y actitud para esos devs que no se conforman con lo básico. Ideales para lucir en meetups, entre monitores o cuando estás en modo deep work con un café infinito al lado.",
+        precio: 40000,
+        imagen: "img/productos/placeholder.png",
+        galeria: [
+            "img/productos/placeholder.png"
+        ],
+        categoria: "remeras",
+        stock: 50,
+        caracteristicas: [
+            "Materiales: Poliester",
+            "Tipo de tela: Spum",
+            "Tipo de manga: Corta",
+            "Cuello: Redondo",
+            "Medidas: S, M, L, XL, XXL",
+            "Impresión: Sublimadas"
+        ]
+    },
+    {
+        id: 15,
+        nombre: "Github (mona the octocat)",
+        descripcion: "Lleva tu código siempre contigo con nuestras remeras de programación, creadas para quienes respiran tecnología.",
+        descripcionDetallada: "Nuestras remeras combinan estilo y actitud para esos devs que no se conforman con lo básico. Ideales para lucir en meetups, entre monitores o cuando estás en modo deep work con un café infinito al lado.",
+        precio: 40000,
+        imagen: "img/productos/placeholder.png",
+        galeria: [
+            "img/productos/placeholder.png"
+        ],
+        categoria: "remeras",
+        stock: 50,
+        caracteristicas: [
+            "Materiales: Poliester",
+            "Tipo de tela: Spum",
+            "Tipo de manga: Corta",
+            "Cuello: Redondo",
+            "Medidas: S, M, L, XL, XXL",
+            "Impresión: Sublimadas"
+        ]
+    },
+    {
+        id: 16,
+        nombre: "This is fine!",
+        descripcion: "Lleva tu código siempre contigo con nuestras remeras de programación, creadas para quienes respiran tecnología.",
+        descripcionDetallada: "Nuestras remeras combinan estilo y actitud para esos devs que no se conforman con lo básico. Ideales para lucir en meetups, entre monitores o cuando estás en modo deep work con un café infinito al lado.",
+        precio: 40000,
+        imagen: "img/productos/placeholder.png",
+        galeria: [
+            "img/productos/placeholder.png"
+        ],
+        categoria: "remeras",
+        stock: 50,
+        caracteristicas: [
+            "Materiales: Poliester",
+            "Tipo de tela: Spum",
+            "Tipo de manga: Corta",
+            "Cuello: Redondo",
+            "Medidas: S, M, L, XL, XXL",
+            "Impresión: Sublimadas"
+        ]
+    },
+    {
+        id: 17,
+        nombre: "Anti coding coding club",
+        descripcion: "Lleva tu código siempre contigo con nuestras remeras de programación, creadas para quienes respiran tecnología.",
+        descripcionDetallada: "Nuestras remeras combinan estilo y actitud para esos devs que no se conforman con lo básico. Ideales para lucir en meetups, entre monitores o cuando estás en modo deep work con un café infinito al lado.",
+        precio: 40000,
+        imagen: "img/productos/placeholder.png",
+        galeria: [
+            "img/productos/placeholder.png"
+        ],
+        categoria: "remeras",
+        stock: 50,
+        caracteristicas: [
+            "Materiales: Poliester",
+            "Tipo de tela: Spum",
+            "Tipo de manga: Corta",
+            "Cuello: Redondo",
+            "Medidas: S, M, L, XL, XXL",
+            "Impresión: Sublimadas"
+        ]
+    },
+    {
+        id: 18,
+        nombre: "Deskpad - Monokai Pro 90x40cm ",
+        descripcion: "¡Dale un boost a tu setup con estos deskpads geek de nivel pro! Diseñados para programadores y entusiastas del código",
+        descripcionDetallada: "Nuestros deskpads están hechos de gomaespuma SBL, con micro tela ultra suave que garantiza un deslizamiento fluido y preciso; perfecto para mostrar tu pasión por la programación.",
+        precio: 50000,
+        imagen: "img/productos/placeholder.png",
+        galeria: [
+            "img/productos/placeholder.png"
+        ],
+        categoria: "deskpads",
+        stock: 30,
+        caracteristicas: [
+            "Materiales: Gomaespuma SBL, micro tela y antideslizante vinílico",
+            "Medidas: 90 x 40 cm",
+            "Espesor: 3 mm"
+        ]
+    },
+    {
+        id: 19,
+        nombre: "Deskpad - Drácula 90x40cm ",
+        descripcion: "¡Dale un boost a tu setup con estos deskpads geek de nivel pro! Diseñados para programadores y entusiastas del código",
+        descripcionDetallada: "Nuestros deskpads están hechos de gomaespuma SBL, con micro tela ultra suave que garantiza un deslizamiento fluido y preciso; perfecto para mostrar tu pasión por la programación.",
+        precio: 50000,
+        imagen: "img/productos/placeholder.png",
+        galeria: [
+            "img/productos/placeholder.png"
+        ],
+        categoria: "deskpads",
+        stock: 30,
+        caracteristicas: [
+            "Materiales: Gomaespuma SBL, micro tela y antideslizante vinílico",
+            "Medidas: 90 x 40 cm",
+            "Espesor: 3 mm"
+        ]
+    },
+    {
+        id: 20,
+        nombre: "Deskpad - Gruvbox 90x40cm ",
+        descripcion: "¡Dale un boost a tu setup con estos deskpads geek de nivel pro! Diseñados para programadores y entusiastas del código",
+        descripcionDetallada: "Nuestros deskpads están hechos de gomaespuma SBL, con micro tela ultra suave que garantiza un deslizamiento fluido y preciso; perfecto para mostrar tu pasión por la programación.",
+        precio: 50000,
+        imagen: "img/productos/placeholder.png",
+        galeria: [
+            "img/productos/placeholder.png"
+        ],
+        categoria: "deskpads",
+        stock: 30,
+        caracteristicas: [
+            "Materiales: Gomaespuma SBL, micro tela y antideslizante vinílico",
+            "Medidas: 90 x 40 cm",
+            "Espesor: 3 mm"
+        ]
+    },
+    {
+        id: 21,
+        nombre: "Deskpad - Personalizado 90x40cm ",
+        descripcion: "¡Dale un boost a tu setup con estos deskpads geek de nivel pro! Diseñados para programadores y entusiastas del código",
+        descripcionDetallada: "Nuestros deskpads están hechos de gomaespuma SBL, con micro tela ultra suave que garantiza un deslizamiento fluido y preciso; perfecto para mostrar tu pasión por la programación.",
+        precio: 60000,
+        imagen: "img/productos/placeholder.png",
+        galeria: [
+            "img/productos/placeholder.png"
+        ],
+        categoria: "deskpads",
+        stock: 30,
+        caracteristicas: [
+            "Materiales: Gomaespuma SBL, micro tela y antideslizante vinílico",
+            "Medidas: 90 x 40 cm",
+            "Espesor: 3 mm"
+        ]
+    },
+    {
+        id: 22,
+        nombre: "Stickers autoadhesivos de programación 5x5cm",
+        descripcion: "¡Lleva tu setup al siguiente nivel con esta épica colección de 48 stickers autoadhesivos!",
+        descripcionDetallada: "Cada sticker está impreso con precisión láser en vinilo de alta calidad, diseñado para los programadores y geeks más exigentes; los logos más icónicos del mundo de la programación.",
+        precio: 15000,
+        imagen: "img/productos/placeholder.png",
+        galeria: [
+            "img/productos/placeholder.png"
+        ],
+        categoria: "otros",
+        stock: 15,
+        caracteristicas: [
+            "Materiales: Papel vinilo autoadhesivo",
+            "Medidas individuales: 5x5 cm aprox",
+            "Impresión: Láser"
+        ]
+    },
+    {
+        id: 23,
+        nombre: "Cartel Neon Led RGB Github (Mona - the octocat)",
+        descripcion: "Ilumina tu espacio de trabajo con estilo geek y lleva tu dev cave a otro nivel con este cartel LED RGB de Mona.",
+        descripcionDetallada: "La icónica mascota de GitHub. Fabricado en acrílico premium y con medidas de 36x36cm, este cartel es la decoración perfecta para cualquier desarrollador apasionado por el código.",
+        precio: 75000,
+        imagen: "img/productos/placeholder.png",
+        galeria: [
+            "img/productos/placeholder.png"
+        ],
+        categoria: "otros",
+        stock: 0,
+        caracteristicas: [
+            "Materiales: Acrílico",
+            "Medidas: 36x36 cm",
+            "Voltaje: 220v",
+            "Tipo de luz: LED",
+            "Largo del cable: 100cm",
+            "Color: RGB 15 colores"
         ]
     }
 ];
