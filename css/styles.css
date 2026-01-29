@@ -546,6 +546,7 @@ body {
     transition: transform 0.3s, box-shadow 0.3s;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .product-card:hover {
@@ -1074,8 +1075,15 @@ footer p {
 }
 
 .devBy{
-    width: 160px;
+    width: 140px;
     vertical-align: middle;
+    margin-left: 10px;
+}
+@media (max-width: 768px) {
+    .devBy{
+        margin-top: 10px;
+        margin-left: 0;
+    }
 }
 
 /* Responsive */
