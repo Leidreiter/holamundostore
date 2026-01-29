@@ -1,6 +1,6 @@
 // Base de datos de productos con galería de imágenes
 // Generado automáticamente desde Google Sheets
-// Última actualización: 29/1/2026, 01:34:27
+// Última actualización: 29/1/2026, 02:06:37
 
 const productos = [
     {
@@ -405,9 +405,12 @@ const productos = [
         descripcion: "¡Dale un boost a tu setup con estos deskpads geek de nivel pro! Diseñados para programadores y entusiastas del código",
         descripcionDetallada: "Nuestros deskpads están hechos de gomaespuma SBL, con micro tela ultra suave que garantiza un deslizamiento fluido y preciso; perfecto para mostrar tu pasión por la programación.",
         precio: 50000,
-        imagen: "img/productos/placeholder.png",
+        imagen: "https://lh3.googleusercontent.com/d/1M1-juHK6GB-Sdoas07Ep8G75WRcAb8rS",
         galeria: [
-            "img/productos/placeholder.png"
+            "https://lh3.googleusercontent.com/d/1M1-juHK6GB-Sdoas07Ep8G75WRcAb8rS",
+            "https://lh3.googleusercontent.com/d/1VA57axjRaHSpKjt0jAXv7tkHq_ENLj6U",
+            "https://lh3.googleusercontent.com/d/1ghMg9J_qM3H41x-pXrZeEf0Hp1GkAdWc",
+            "https://lh3.googleusercontent.com/d/1FOjUJ60PuqEvEszryPQkCgdJ_w9a8Uy6"
         ],
         categoria: "deskpads",
         stock: 30,
@@ -423,9 +426,12 @@ const productos = [
         descripcion: "¡Dale un boost a tu setup con estos deskpads geek de nivel pro! Diseñados para programadores y entusiastas del código",
         descripcionDetallada: "Nuestros deskpads están hechos de gomaespuma SBL, con micro tela ultra suave que garantiza un deslizamiento fluido y preciso; perfecto para mostrar tu pasión por la programación.",
         precio: 50000,
-        imagen: "img/productos/placeholder.png",
+        imagen: "https://lh3.googleusercontent.com/d/1Eul_v2K7kpcSi3v0qhEp1O17_sShh-Ui",
         galeria: [
-            "img/productos/placeholder.png"
+            "https://lh3.googleusercontent.com/d/1Eul_v2K7kpcSi3v0qhEp1O17_sShh-Ui",
+            "https://lh3.googleusercontent.com/d/1u8noF3tqj9N80rbUkLrQ5LU4EJhb1K2H",
+            "https://lh3.googleusercontent.com/d/13EN6gToxybo3BlzKr3J-r3ZMD0Aoubky",
+            "https://lh3.googleusercontent.com/d/1T_E0kQEU3_spzdVc2Vt2WyJyKIxkZOwL"
         ],
         categoria: "deskpads",
         stock: 30,
@@ -441,9 +447,12 @@ const productos = [
         descripcion: "¡Dale un boost a tu setup con estos deskpads geek de nivel pro! Diseñados para programadores y entusiastas del código",
         descripcionDetallada: "Nuestros deskpads están hechos de gomaespuma SBL, con micro tela ultra suave que garantiza un deslizamiento fluido y preciso; perfecto para mostrar tu pasión por la programación.",
         precio: 50000,
-        imagen: "img/productos/placeholder.png",
+        imagen: "https://lh3.googleusercontent.com/d/18-QHMpchjFG-YRo_94BEYq5UGGo0LEKi",
         galeria: [
-            "img/productos/placeholder.png"
+            "https://lh3.googleusercontent.com/d/18-QHMpchjFG-YRo_94BEYq5UGGo0LEKi",
+            "https://lh3.googleusercontent.com/d/1P3KQ5eFa7oJLA_DGlKcc2zcRJ6xMZzPD",
+            "https://lh3.googleusercontent.com/d/1PcCyGAkRoqB944fjIbdNEBNtGTz6T9sV",
+            "https://lh3.googleusercontent.com/d/1GXSCUEpS_u4vleKtCknhxpOtpMRZ9wpz"
         ],
         categoria: "deskpads",
         stock: 30,
@@ -459,9 +468,12 @@ const productos = [
         descripcion: "¡Dale un boost a tu setup con estos deskpads geek de nivel pro! Diseñados para programadores y entusiastas del código",
         descripcionDetallada: "Nuestros deskpads están hechos de gomaespuma SBL, con micro tela ultra suave que garantiza un deslizamiento fluido y preciso; perfecto para mostrar tu pasión por la programación.",
         precio: 60000,
-        imagen: "img/productos/placeholder.png",
+        imagen: "https://lh3.googleusercontent.com/d/1KXYR56l3LRYZNGevE6qiY-k_hQDGlsrJ",
         galeria: [
-            "img/productos/placeholder.png"
+            "https://lh3.googleusercontent.com/d/1KXYR56l3LRYZNGevE6qiY-k_hQDGlsrJ",
+            "https://lh3.googleusercontent.com/d/16Y9GReYWruc-ZNe-ce9yWEzMemlIjh-3",
+            "https://lh3.googleusercontent.com/d/1iVRjNOHhhfPnXHdxIAF8317XTO_a5hao",
+            "https://lh3.googleusercontent.com/d/144nfPpXgNrYRnm7sS51BTqJO3sJA4DVD"
         ],
         categoria: "deskpads",
         stock: 30,
@@ -500,6 +512,7 @@ const productos = [
         imagen: "https://lh3.googleusercontent.com/d/1tcpQJU1Vpix4ci-CZ11N4gFv6_8yirKx",
         galeria: [
             "https://lh3.googleusercontent.com/d/1tcpQJU1Vpix4ci-CZ11N4gFv6_8yirKx",
+            "https://lh3.googleusercontent.com/d/1ceD9mHOgSWw_x80NMEVUMLBc0uEtNLnu",
             "https://lh3.googleusercontent.com/d/1ckZD9BEKjBheJVzZ4-U8KUXdbis-hPQ4",
             "https://lh3.googleusercontent.com/d/1UQo0DTeLRUOrephBADhkFp3VWRqwmE1k"
         ],
