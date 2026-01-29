@@ -1,6 +1,6 @@
 // Base de datos de productos con galería de imágenes
 // Generado automáticamente desde Google Sheets
-// Última actualización: 28/1/2026, 07:16:28
+// Última actualización: 28/1/2026, 10:42:21
 
 const productos = [
     {
@@ -9,9 +9,12 @@ const productos = [
         descripcion: "¡Atención programadores y frikis del código! Este cuadro es un verdadero tributo al clásico Hello World... ",
         descripcionDetallada: "Perfecto para darle ese toque geek a tu setup, oficina o rincón de código. Es más que un simple cuadro: es un grito de batalla para quienes viven entre líneas de código y compilaciones infinitas.",
         precio: 55000,
-        imagen: "img/productos/placeholder.png",
+        imagen: "https://lh3.googleusercontent.com/d/17f8JnqTdYzA4MoXx2IrBQ21OzgUjcaGA",
         galeria: [
-            "img/productos/placeholder.png"
+            "https://lh3.googleusercontent.com/d/17f8JnqTdYzA4MoXx2IrBQ21OzgUjcaGA",
+            "https://lh3.googleusercontent.com/d/1ebpoyWn0vFYwo-3qFQJ2WA8RY_hxzar3",
+            "https://lh3.googleusercontent.com/d/1lRqk91eSIh2D2Prh1juzQ70xnnANi9jY",
+            "https://lh3.googleusercontent.com/d/1jqMEKP3J9mWdSiFJXUQpAM8SifFOUcs3"
         ],
         categoria: "cuadros",
         stock: 500,
@@ -28,9 +31,12 @@ const productos = [
         descripcion: "¡Atención programadores y frikis del código! Este cuadro es un verdadero tributo al clásico Hello World... ",
         descripcionDetallada: "Perfecto para darle ese toque geek a tu setup, oficina o rincón de código. Es más que un simple cuadro: es un grito de batalla para quienes viven entre líneas de código y compilaciones infinitas.",
         precio: 55000,
-        imagen: "img/productos/placeholder.png",
+        imagen: "https://lh3.googleusercontent.com/d/1bjr0OiCAg5TTIIn7FLzo8SVjiW7avsdA",
         galeria: [
-            "img/productos/placeholder.png"
+            "https://lh3.googleusercontent.com/d/1bjr0OiCAg5TTIIn7FLzo8SVjiW7avsdA",
+            "https://lh3.googleusercontent.com/d/1F9NSfYih9N2zaFQLdl9sElQFlxSfiwaf",
+            "https://lh3.googleusercontent.com/d/1vbQ0JIbrFfQw0YyP0AshIac7vp4vYeVX",
+            "https://lh3.googleusercontent.com/d/1eKh-HNR1G9LF0P-WNpNs7APxl7xNotbD"
         ],
         categoria: "cuadros",
         stock: 500,
@@ -47,9 +53,12 @@ const productos = [
         descripcion: "¡Atención programadores y frikis del código! Este cuadro es un verdadero tributo al clásico Hello World... ",
         descripcionDetallada: "Perfecto para darle ese toque geek a tu setup, oficina o rincón de código. Es más que un simple cuadro: es un grito de batalla para quienes viven entre líneas de código y compilaciones infinitas.",
         precio: 55000,
-        imagen: "img/productos/placeholder.png",
+        imagen: "https://lh3.googleusercontent.com/d/1Ry-XwOmDPZAW-huTfu1r4sV0nbhtzIFC",
         galeria: [
-            "img/productos/placeholder.png"
+            "https://lh3.googleusercontent.com/d/1Ry-XwOmDPZAW-huTfu1r4sV0nbhtzIFC",
+            "https://lh3.googleusercontent.com/d/1BR4kdOG9rTuhkx7ECbbm1Gr7s4pmVSbZ",
+            "https://lh3.googleusercontent.com/d/1Iyqz16ZwcEp0OIQZupRLkXcf-wNjJkIx",
+            "https://lh3.googleusercontent.com/d/1VP1pDhuKbVj_BDfOwsncHHUKZ-dlEo1V"
         ],
         categoria: "cuadros",
         stock: 500,
@@ -66,9 +75,12 @@ const productos = [
         descripcion: "¡Atención programadores y frikis del código! Este cuadro es un verdadero tributo al clásico Hello World... ",
         descripcionDetallada: "Perfecto para darle ese toque geek a tu setup, oficina o rincón de código. Es más que un simple cuadro: es un grito de batalla para quienes viven entre líneas de código y compilaciones infinitas.",
         precio: 55000,
-        imagen: "img/productos/placeholder.png",
+        imagen: "https://lh3.googleusercontent.com/d/17cMWkiswjek3iQlZENooBZNYFbmpGV6Y",
         galeria: [
-            "img/productos/placeholder.png"
+            "https://lh3.googleusercontent.com/d/17cMWkiswjek3iQlZENooBZNYFbmpGV6Y",
+            "https://lh3.googleusercontent.com/d/1DL2gC1BNaHgGkNUdZdmVzjgvqpDQ63Mt",
+            "https://lh3.googleusercontent.com/d/1dIWjkg-qBfVaG0vWsrVfL4rmmUnNranq",
+            "https://lh3.googleusercontent.com/d/1m2fhZWwBdnHekXt4BaP9IZjuvK4aARJe"
         ],
         categoria: "cuadros",
         stock: 500,
@@ -85,9 +97,10 @@ const productos = [
         descripcion: "¡Atención programadores y frikis del código! Este cuadro es un verdadero tributo al clásico Hello World... ",
         descripcionDetallada: "Perfecto para darle ese toque geek a tu setup, oficina o rincón de código. Es más que un simple cuadro: es un grito de batalla para quienes viven entre líneas de código y compilaciones infinitas.",
         precio: 65000,
-        imagen: "img/productos/placeholder.png",
+        imagen: "https://lh3.googleusercontent.com/d/1lG7cf4afQCEEc3BlxYmjxwI1pQmJTrwd",
         galeria: [
-            "img/productos/placeholder.png"
+            "https://lh3.googleusercontent.com/d/1lG7cf4afQCEEc3BlxYmjxwI1pQmJTrwd",
+            "https://lh3.googleusercontent.com/d/1DGWg_2K1LdmMxl5dpRZZ5-LdocPOmWOj"
         ],
         categoria: "otros",
         stock: 500,
