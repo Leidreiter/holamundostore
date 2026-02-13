@@ -31,7 +31,7 @@ function enviarContactoWhatsApp(e) {
     const mensajeCodificado = encodeURIComponent(mensajeWhatsApp);
     
     // Número de WhatsApp
-    const numeroWhatsApp = '545555555555';
+    const numeroWhatsApp = '543515957014';
     
     // Crear URL de WhatsApp
     const urlWhatsApp = `https://wa.me/${numeroWhatsApp}?text=${mensajeCodificado}`;
