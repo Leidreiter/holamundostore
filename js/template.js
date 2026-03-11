@@ -18,7 +18,7 @@ function renderHeader(activePage = '') {
                 <a href="index.html" class="logo">Mi Tienda</a>
                 -->
                 <a href="index.html" class="logo-link">
-                    <img src="img/logo.webp" alt="Logo de la tienda" class="logo">
+                    <img src="img/logo.svg" alt="Logo de la tienda" class="logo">
                 </a>
 
                 <button class="menu-toggle" aria-label="Abrir menú de navegación">
