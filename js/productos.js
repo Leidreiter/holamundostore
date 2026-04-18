@@ -1,6 +1,6 @@
 // Base de datos de productos con galería de imágenes
 // Generado automáticamente desde Google Sheets
-// Última actualización: 18/4/2026, 04:54:10
+// Última actualización: 18/4/2026, 04:58:31
 
 const productos = [
     {
@@ -8,7 +8,7 @@ const productos = [
         nombre: "Cuadro Hello World - Monokai Pro 30x40cm",
         descripcion: "¡Atención programadores y frikis del código! Este cuadro es un verdadero tributo al clásico Hello World... ",
         descripcionDetallada: "Perfecto para darle ese toque geek a tu setup, oficina o rincón de código. Es más que un simple cuadro: es un grito de batalla para quienes viven entre líneas de código y compilaciones infinitas.",
-        precio: 100000,
+        precio: 55000,
         imagen: "https://lh3.googleusercontent.com/d/17f8JnqTdYzA4MoXx2IrBQ21OzgUjcaGA",
         galeria: [
             "https://lh3.googleusercontent.com/d/17f8JnqTdYzA4MoXx2IrBQ21OzgUjcaGA",
