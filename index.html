@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tienda online con los mejores productos. Envíos a todo el país.">
+    <meta name="keywords" content="tienda, productos, ecommerce, compras online">
+    <title>Hola Mundo Store | Merchandise para Programadores en Argentina</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- CDN Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body data-page="inicio">
+    <!-- Header se cargará dinámicamente -->
+
+    <main>
+
+        <!--<section class="hero">
+            <div class="hero-copy">
+                <div class="cont1200 grid">
+                <h1>Bienvenido a Nuestra Tienda</h1>
+                <p>Descubre productos de calidad al mejor precio</p>
+                </div>
+            </div>
+        </section>--> 
+
+
+        <section class="hero-slider">
+            <div class="slider-track">
+
+                <div class="slider-slide active">
+                    <img src="img/sliders/slider1.png" alt="Promoción 1">
+                    <!--
+                    <div class="slider-content">
+                        
+                        <div class="slider-text cont1200">
+                            <h1>Bienvenido a Nuestra Tienda</h1>
+                            <p>Descubre productos de calidad al mejor precio</p>
+                        </div>
+                        
+                    </div>
+                    -->
+                </div>
+
+                <div class="slider-slide">
+                    <img src="img/sliders/slider2.png" alt="Promoción 2">
+                    <!--
+                    <div class="slider-content">
+                        
+                        <div class="slider-text cont1200">
+                            <h1>Nuevas Colecciones</h1>
+                            <p>Las últimas tendencias ya están aquí</p>
+                        </div>
+                        
+                    </div>
+                    -->
+                </div>
+
+                <div class="slider-slide">
+                    <img src="img/sliders/slider3.png" alt="Promoción 3">
+                    <!--
+                    <div class="slider-content">
+                        
+                        <div class="slider-text cont1200">
+                            <h1>Ofertas Exclusivas</h1>
+                            <p>Hasta 50% de descuento en productos seleccionados</p>
+                        </div>
+                        
+                    </div>
+                    -->
+                </div>
+
+                <div class="slider-slide">
+                    <img src="img/sliders/slider4.png" alt="Promoción 4">
+                    <!--
+                    <div class="slider-content">
+                        
+                        <div class="slider-text cont1200">
+                            <h1>Envíos a Todo el País</h1>
+                            <p>Compra desde la comodidad de tu hogar</p>
+                        </div>
+                        
+                    </div>
+                    -->
+                </div>
+
+                <div class="slider-slide">
+                    <img src="img/sliders/slider5.png" alt="Promoción 5">
+                    <!--
+                    <div class="slider-content">
+                        
+                        <div class="slider-text cont1200">
+                            <h1>Envíos a Todo el País</h1>
+                            <p>Compra desde la comodidad de tu hogar</p>
+                        </div>
+                        
+                    </div>
+                    -->
+                </div>
+
+                <div class="slider-slide">
+                    <img src="img/sliders/slider6.png" alt="Promoción 6">
+                    <!--
+                    <div class="slider-content">
+                        
+                        <div class="slider-text cont1200">
+                            <h1>Envíos a Todo el País</h1>
+                            <p>Compra desde la comodidad de tu hogar</p>
+                        </div>
+                        
+                    </div>
+                    -->
+                </div>
+            </div>
+
+
+            <button class="slider-nav prev" aria-label="Slide anterior">‹</button>
+            <button class="slider-nav next" aria-label="Slide siguiente">›</button>
+            
+        </section>
+
+
+        <div id="tienda"></div>
+
+        <section class="search-section">
+            <div class="search-container">
+                <input type="search" id="searchInput" class="search-input" placeholder="Buscar productos..."
+                    aria-label="Buscar productos">
+                <button class="clear-search" id="clearSearch" aria-label="Limpiar búsqueda">✕</button>
+            </div>
+            <p class="search-results" id="searchResults"></p>
+        </section>
+
+        <!-- Resultados de búsqueda (solo visible cuando hay búsqueda activa) -->
+        <section id="productos" class="products-section">
+
+            <div class="products-grid" id="productsGrid">
+                <!-- Los resultados de búsqueda se cargarán aquí -->
+            </div>
+
+            <div class="no-results" id="noResults">
+                <p>No se encontraron productos que coincidan con tu búsqueda</p>
+                <a href="#" class="shop-btn" onclick="limpiarBusqueda()">Ver todos los productos</a>
+            </div>
+        </section>
+
+        <!-- Sección de categoría 1 -->
+        <section class="category-section" id="cat1-section">
+
+            <div class="products-grid" id="gridCat1">
+                
+            </div>
+        </section>
+
+        <section class="contenedor">
+            <div class="banner">
+                <div class="banner_imagen">
+                    <a href="#">
+                        <img loading="lazy" src="img/banners/banner1.png" alt="banner">
+                    </a>
+                </div>
+                <div class="banner_info">
+                    <div class="banner_info_icono">
+                        <img loading="lazy" src="img/icon-banner1.png" alt="ícono personalizado" class="block">
+                    </div>
+                    <div class="banner_info_copy">
+                        <h4>Personalizalo 🫟</h4>
+                        <h2>Lo hacemos<br>
+                            con tu theme</h2>
+                        <a href="#">Más info <i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de categoría 2 -->
+        <section class="category-section" id="cat2-section">
+
+            <div class="products-grid" id="gridCat2">
+                
+            </div>
+        </section>
+
+        <section class="contenedor">
+
+            <div class="banners-productos">
+                <div class="banner-productos-contenido">
+                    <div class="banner-promo-info">
+                        <h4>Tenemos</h4>
+                        <h2>Stickers</h2>
+                        <p class="no-space">+45 Stickers de vinilo</p>
+                        <a href="#" class="btn">Ver producto</a>
+                    </div>
+                    <div class="banner-img1">
+                    </div>
+                </div>
+
+                <div class="banner-productos-contenido">
+                    <div class="banner-promo-info">
+                        <h4>También</h4>
+                        <h2>DeskPads</h2>
+                        <p class="no-space">Hello, World!</p>
+                        <a href="#" class="btn">Ver producto</a>
+                    </div>
+                    <div class="banner-img2">
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Sección de categoría 3 -->
+        <section class="category-section" id="cat3-section">
+
+            <div class="products-grid" id="gridCat3">
+                
+            </div>
+        </section>
+
+        <section class="contenedor">
+            <div class="banner">
+                <div class="banner_imagen">
+                    <a href="#">
+                        <img loading="lazy" src="img/banners/banner4.png" alt="banner">
+                    </a>
+                </div>
+                <div class="banner_info">
+                    <div class="banner_info_icono">
+                        <img loading="lazy" src="img/icon-banner2.png" alt="ícono personalizado" class="block">
+                    </div>
+                    <div class="banner_info_copy">
+                        <h4>Dale color 🔴🟢🔵</h4>
+                        <h2>A tu setup<br>
+                            con mona</h2>
+                        <a href="#">Ver producto <i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de categoría 4 -->
+        <section class="category-section" id="cat4-section">
+
+            <div class="products-grid" id="gridCat4">
+                
+            </div>
+        </section>
+
+    </main>
+
+    <section class="iconos-pie">
+        <div class="iconos cont1200">
+            <div class="icono">
+                <img loading="lazy" src="img/icono-pagos.png" alt="icono pagos en Hola Mundo Store">
+                <h3>Muchas formas de pago</h3>
+                <p>Trabajo con mercadopago, lo cuál se aceptan todos los medios de pagos
+                    de la villetera virtual número 1 de Argentina, para que compres con total confianza.
+                </p>
+            </div>
+            <div class="icono">
+                <img loading="lazy" src="img/icono-envios.png" alt="icono envios en Hola Mundo Store">
+                <h3>Envíos a toda Argentina</h3>
+                <p>Envío a toda la Argentina de norte a sur, todos los pedidos salen
+                    desde Córdoba, Argentina y pueden variar dependiendo tu ubicación.
+                </p>
+            </div>
+            <div class="icono">
+                <img loading="lazy" src="img/icono-stock.png" alt="icono stock en Hola Mundo Store">
+                <h3>Stock siempre disponible</h3>
+                <p>Toda la web opera bajo pedido, compra con total confianza, yo
+                    me comunicaré contigo personalmente para asegurar que llegue lo que pidas.
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- <section id="contacto" class="contact-section">
+        <h2>Contacto</h2>
+        <p>¿Tienes alguna pregunta? Contáctanos por WhatsApp</p>
+        <a href="https://wa.me/543515957014" class="whatsapp-btn" target="_blank" rel="noopener">
+            Enviar WhatsApp
+        </a>
+    </section> -->
+    <!-- Footer se cargará dinámicamente -->
+
+    <script src="js/template.js"></script>
+    <script src="js/marquee.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/salida-popup.js"></script>
+    <script src="js/productos.js"></script>
+    <script src="js/carrito.js"></script>
+    <script src="js/busqueda.js"></script>
+    <script src="js/productos-categorias.js"></script>
+    <script src="js/hero-slider.js"></script>
+</body>
+
+</html>
