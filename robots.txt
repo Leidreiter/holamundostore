@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Bloquear páginas que no deben aparecer en resultados de búsqueda
+Disallow: /carrito.html
+Disallow: /gracias.html
+Disallow: /favoritos.html
+Disallow: /js/
+
+# Enlace al sitemap
+Sitemap: https://holamundo.store/sitemap.xml
