@@ -11,6 +11,8 @@ function renderHeader(activePage = '') {
                 <a href="https://www.tiktok.com/@soymarcusdev" target="_blank" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
                 <a href="https://www.youtube.com/@soymarcusdev" target="_blank" aria-label="Youtube"><i class="fa-brands fa-youtube"></i></a>
                 <a href="https://www.twitch.tv/soymarcusdev" target="_blank" aria-label="Youtube"><i class="fa-brands fa-twitch"></i></a>
+                <a href="https://x.com/soymarcusdev" target="_blank" aria-label="X Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://soundcloud.com/soymarcusdev" target="_blank" aria-label="Soundcloud"><i class="fa-brands fa-soundcloud"></i></a>
             </div>
         </div>
         <nav class="navbar">
@@ -99,4 +101,13 @@ document.addEventListener('DOMContentLoaded', function () {
     
     // Actualizar contador de favoritos
     actualizarContadorFavoritosGlobal();
+
+    // Registrar Service Worker (PWA)
+    if ("serviceWorker" in navigator) {
+        window.addEventListener("load", () => {
+            navigator.serviceWorker.register("sw.js").catch(() => {
+                // Ignorar: PWA es opcional si el navegador lo bloquea (ej. HTTP/localhost mal configurado)
+            });
+        });
+    }
 });

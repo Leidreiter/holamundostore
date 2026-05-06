@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Hola Mundo Store">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0d12"/>
+      <stop offset="1" stop-color="#141a2a"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="96" fill="url(#bg)"/>
+  <circle cx="256" cy="256" r="172" fill="rgba(255,255,255,0.06)"/>
+  <path d="M170 212c0-16 13-29 29-29h114c16 0 29 13 29 29v88c0 16-13 29-29 29H199c-16 0-29-13-29-29v-88Z" fill="rgba(255,255,255,0.10)"/>
+  <path d="M196 242h120M196 270h86" stroke="#ffffff" stroke-opacity="0.85" stroke-width="16" stroke-linecap="round"/>
+  <text x="256" y="396" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="40" fill="#ffffff" fill-opacity="0.92">Hola Mundo</text>
+</svg>
+

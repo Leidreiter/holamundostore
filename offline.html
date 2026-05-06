@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
+    <title>Sin conexión | Hola Mundo Store</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <style>
+      .offline-wrap {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 48px 16px;
+      }
+      .offline-card {
+        background: rgba(255, 255, 255, 0.04);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        border-radius: 16px;
+        padding: 24px;
+      }
+      .offline-actions {
+        display: flex;
+        gap: 12px;
+        flex-wrap: wrap;
+        margin-top: 16px;
+      }
+      .offline-actions a,
+      .offline-actions button {
+        appearance: none;
+        border: 0;
+        border-radius: 12px;
+        padding: 12px 14px;
+        cursor: pointer;
+        font: inherit;
+      }
+      .offline-actions button {
+        background: #ffffff;
+        color: #0b0d12;
+      }
+      .offline-actions a {
+        background: rgba(255, 255, 255, 0.12);
+        color: #fff;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="offline-wrap">
+      <div class="offline-card">
+        <h1>Estás sin conexión</h1>
+        <p>
+          Podés seguir navegando por algunas pantallas que ya visitaste. Cuando vuelvas a tener internet,
+          recargá para actualizar contenido y precios.
+        </p>
+        <div class="offline-actions">
+          <button type="button" onclick="location.reload()">Reintentar</button>
+          <a href="index.html">Ir al inicio</a>
+          <a href="faq.html">Ver preguntas frecuentes</a>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
+

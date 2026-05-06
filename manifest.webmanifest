@@ -1,0 +1,27 @@
+{
+  "name": "Hola Mundo Store",
+  "short_name": "Hola Mundo",
+  "description": "Merch para programadores. Envíos a todo el país.",
+  "lang": "es-AR",
+  "dir": "ltr",
+  "start_url": "/?source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0b0d12",
+  "theme_color": "#0b0d12",
+  "categories": ["shopping", "business"],
+  "icons": [
+    {
+      "src": "/img/pwa/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/img/pwa/maskable.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}
